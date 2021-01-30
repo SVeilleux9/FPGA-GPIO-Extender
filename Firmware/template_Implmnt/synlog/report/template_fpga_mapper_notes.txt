@@ -1,0 +1,33 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_1 (in view: work.MainController(verilog)) on net AddrBus_1 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_2 (in view: work.MainController(verilog)) on net AddrBus_2 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_3 (in view: work.MainController(verilog)) on net AddrBus_3 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_4 (in view: work.MainController(verilog)) on net AddrBus_4 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_5 (in view: work.MainController(verilog)) on net AddrBus_5 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_6 (in view: work.MainController(verilog)) on net AddrBus_6 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_7 (in view: work.MainController(verilog)) on net AddrBus_7 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_8 (in view: work.MainController(verilog)) on net AddrBus_8 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver AddrBus_t[0] (in view: work.top(verilog)) on net AddrBus[0] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver AddrBus_t[1] (in view: work.top(verilog)) on net AddrBus[1] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":25:4:25:9|Removing sequential instance controller.state[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":25:4:25:9|Removing sequential instance controller.state[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":57:2:57:7|Found counter in view:work.SPI(verilog) instance addr[7:0] 
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\regmap.v":24:2:24:7|Replicating instance reg_mag_i.inAddr[7] (in view: work.top(verilog)) with 20 loads 2 times to improve timing.
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\regmap.v":24:2:24:7|Replicating instance reg_mag_i.inAddr[0] (in view: work.top(verilog)) with 21 loads 2 times to improve timing.
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\regmap.v":24:2:24:7|Replicating instance reg_mag_i.inAddr[1] (in view: work.top(verilog)) with 21 loads 2 times to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_5_iv (in view: work.top(verilog)) with 4 loads 3 time(s) to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_6_iv (in view: work.top(verilog)) with 4 loads 3 time(s) to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_iv (in view: work.top(verilog)) with 4 loads 3 time(s) to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_1_iv (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_0_iv (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_2_iv (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_3_iv (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :|Replicating instance reg_mag_i.un2_DataBus_4_iv (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX1016 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\top.v":7:10:7:12|SB_GB_IO inserted on the port CLK.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

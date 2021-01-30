@@ -1,0 +1,31 @@
+Selecting top level module top
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v":1:7:1:20|Synthesizing module MainController in library work.
+
+@W: CG532 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v":21:4:21:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG360 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v":5:17:5:23|Removing wire AddrBus, as there is no assignment to it.
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":1:7:1:13|Synthesizing module Reg_Map in library work.
+
+@W: CG532 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":15:2:15:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CL189 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":24:2:24:7|Register bit state is always 1.
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":1:7:1:9|Synthesizing module SPI in library work.
+
+@W: CG532 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":50:2:50:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":37:6:37:7|Object d1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":45:6:45:14|Object data_sent is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":46:12:46:21|Object module_out is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":57:2:57:7|Pruning unused register in_cnt[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":17:2:17:7|Removing unused bit 2 of SSELr[2:0]. Either assign all bits or reduce the width of the signal.
+@N: CL189 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":57:2:57:7|Register bit state[1] is always 0.
+@N: CL189 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":57:2:57:7|Register bit state[2] is always 0.
+@W: CL279 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":57:2:57:7|Pruning register bits 2 to 1 of state[2:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":6:7:6:9|Synthesizing module top in library work.
+
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":6:13:6:19|Input AddrBus is unused.
+@W: CL305 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":24:2:24:7|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+@W: CL305 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":24:2:24:7|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+@W: CL305 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":24:2:24:7|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+@W: CL305 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":24:2:24:7|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":5:13:5:19|Input AddrBus is unused.
+@W: CL138 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v":25:4:25:9|Removing register 'LED_state' because it is only assigned 0 or its original value.
+@W: CL157 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v":5:17:5:23|*Output AddrBus has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL158 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v":6:16:6:22|Inout DataBus is unused

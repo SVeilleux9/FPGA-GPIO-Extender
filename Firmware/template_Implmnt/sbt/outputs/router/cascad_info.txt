@@ -1,0 +1,17 @@
+[VIC]
+SPI_i.SCK_fallingedge_cascade_=ltout:in1
+SPI_i.addr_0_sqmuxa_cascade_=ltout:in2
+SPI_i.addr_sent_1_sqmuxa_1_cascade_=ltout:in2
+SPI_i.bit_out_2_7_ns_1_cascade_=ltout:in2
+SPI_i.bit_out_esr_RNOZ0Z_4_cascade_=ltout:in0
+SPI_i.out_data_5_0_i_1_3_cascade_=ltout:in2
+data_esr_RNIM3GP_7_cascade_=ltout:in0
+reg_mag_i.N_63_cascade_=ltout:in0
+reg_mag_i.N_67_cascade_=ltout:in0
+reg_mag_i.N_71_cascade_=ltout:in0
+reg_mag_i.N_76_cascade_=ltout:in1
+reg_mag_i.g0_1_0_cascade_=ltout:in1
+reg_mag_i.g0_1_cascade_=ltout:in1
+reg_mag_i.inAddr_RNIO8HPZ0Z_2_cascade_=ltout:in1
+reg_mag_i.inAddr_RNIUITVZ0Z_4_cascade_=ltout:in0
+reg_mag_i.outData_2_i_1_6_cascade_=ltout:in3

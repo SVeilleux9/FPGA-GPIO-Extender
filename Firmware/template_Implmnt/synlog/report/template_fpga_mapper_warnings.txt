@@ -1,0 +1,2 @@
+@W: MO161 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":25:4:25:9|Register bit controller.state[0] (in view view:work.top(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MT420 |Found inferred clock top|CLK with period 7.40ns. Please declare a user-defined clock on object "p:CLK"

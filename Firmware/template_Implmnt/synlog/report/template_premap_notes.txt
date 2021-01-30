@@ -1,0 +1,13 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_1 (in view: work.MainController(verilog)) on net AddrBus_1 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_2 (in view: work.MainController(verilog)) on net AddrBus_2 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_3 (in view: work.MainController(verilog)) on net AddrBus_3 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_4 (in view: work.MainController(verilog)) on net AddrBus_4 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_5 (in view: work.MainController(verilog)) on net AddrBus_5 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_6 (in view: work.MainController(verilog)) on net AddrBus_6 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_7 (in view: work.MainController(verilog)) on net AddrBus_7 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_8 (in view: work.MainController(verilog)) on net AddrBus_8 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver AddrBus_t[0] (in view: work.top(verilog)) on net AddrBus[0] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver AddrBus_t[1] (in view: work.top(verilog)) on net AddrBus[1] (in view: work.top(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template.sap.

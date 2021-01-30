@@ -1,0 +1,47 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=spi_testbench
+[Library]
+spi_testbench=.\spi_testbench\spi_testbench.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+LibNames=ovi_ice;ice
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+spi_testbench=.
+[Files]
+/..\..\..\verilog\top.v=-1
+/..\..\..\verilog\modules\RegMap.v=-1
+/..\..\..\verilog\modules\SPI.v=-1
+/..\..\..\verilog\modules\MainController.v=-1
+/..\..\..\verilog\top_tb.v=-1
+[Files.Data]
+.\..\..\verilog\top.v=Verilog Source Code
+.\..\..\verilog\modules\RegMap.v=Verilog Source Code
+.\..\..\verilog\modules\SPI.v=Verilog Source Code
+.\..\..\verilog\modules\MainController.v=Verilog Source Code
+.\..\..\verilog\top_tb.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

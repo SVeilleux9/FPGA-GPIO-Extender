@@ -1,0 +1,256 @@
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top_tb.v ... Done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 -L ovi_ice -L ice +access +r tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work SPI_TestBench $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/top.v $dsn/../../verilog/top_tb.v
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (18): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice, SPI_TestBench.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+alog -O2 -sve -msg 5 -sv2k12 -work SPI_TestBench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 -L ovi_ice -L ice +access +r tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.4 [s]
+# SLP: Finished : 1.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 65 (98.48%) signals in SLP and 1 (1.52%) interface signals
+# ELAB2: Elaboration final pass complete - time: 2.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=1280 elab2=4623 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\Test Bench\SPI_testbench\src\wave.asdb
+#  10:14 AM, Sunday, December 6, 2020
+#  Simulation has been initialized
+# add wave -noreg {/tb/t/SPI_Read}
+# add wave -noreg {/tb/t/SPI_Write}
+# add wave -noreg {/tb/t/SPI_Data_Available}
+# add wave -noreg {/tb/t/RegMap_Read}
+# add wave -noreg {/tb/t/RegMap_Write}
+# add wave -noreg {/tb/t/RegMap_Data_Available}
+# add wave -noreg {/tb/t/AddrBus}
+# add wave -noreg {/tb/t/DataBus}
+# add wave -noreg {/tb/t/CLK}
+# add wave -noreg {/tb/t/LED}
+# add wave -noreg {/tb/t/PIN_10}
+# add wave -noreg {/tb/t/PIN_11}
+# add wave -noreg {/tb/t/PIN_12}
+# add wave -noreg {/tb/t/PIN_13}
+# 14 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/Test Bench/SPI_testbench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/tb/t/reg_mag_i/registers}
+# add wave -noreg {/tb/t/reg_mag_i/reqData}
+# add wave -noreg {/tb/t/reg_mag_i/clk}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Read}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Write}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Data_Available}
+# add wave -noreg {/tb/t/reg_mag_i/AddrBus}
+# add wave -noreg {/tb/t/reg_mag_i/DataBus}
+# 8 signal(s) traced.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 -L ovi_ice -L ice +access +r tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 65 (98.48%) signals in SLP and 1 (1.52%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=1280 elab2=4623 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\Test Bench\SPI_testbench\src\wave.asdb
+#  10:16 AM, Sunday, December 6, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/Test Bench/SPI_testbench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/tb/t/SPI_Read}
+# add wave -noreg {/tb/t/SPI_Write}
+# add wave -noreg {/tb/t/SPI_Data_Available}
+# add wave -noreg {/tb/t/RegMap_Read}
+# add wave -noreg {/tb/t/RegMap_Write}
+# add wave -noreg {/tb/t/RegMap_Data_Available}
+# add wave -noreg {/tb/t/AddrBus}
+# add wave -noreg {/tb/t/DataBus}
+# add wave -noreg {/tb/t/CLK}
+# add wave -noreg {/tb/t/LED}
+# add wave -noreg {/tb/t/PIN_10}
+# add wave -noreg {/tb/t/PIN_11}
+# add wave -noreg {/tb/t/PIN_12}
+# add wave -noreg {/tb/t/PIN_13}
+# 14 signal(s) traced.
+# add wave -noreg {/tb/t/reg_mag_i/registers}
+# add wave -noreg {/tb/t/reg_mag_i/reqData}
+# add wave -noreg {/tb/t/reg_mag_i/clk}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Read}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Write}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Data_Available}
+# add wave -noreg {/tb/t/reg_mag_i/AddrBus}
+# add wave -noreg {/tb/t/reg_mag_i/DataBus}
+# 8 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 65 (98.48%) signals in SLP and 1 (1.52%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=1280 elab2=4623 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\Test Bench\SPI_testbench\src\wave.asdb
+#  10:16 AM, Sunday, December 6, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/Test Bench/SPI_testbench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/tb/t/SPI_i/SCKr}
+# add wave -noreg {/tb/t/SPI_i/SCK_risingedge}
+# add wave -noreg {/tb/t/SPI_i/SCK_fallingedge}
+# add wave -noreg {/tb/t/SPI_i/SSELr}
+# add wave -noreg {/tb/t/SPI_i/SSEL_active}
+# add wave -noreg {/tb/t/SPI_i/MOSIr}
+# add wave -noreg {/tb/t/SPI_i/MOSI_data}
+# add wave -noreg {/tb/t/SPI_i/state}
+# add wave -noreg {/tb/t/SPI_i/in_cnt}
+# add wave -noreg {/tb/t/SPI_i/out_cnt}
+# add wave -noreg {/tb/t/SPI_i/bit_out}
+# add wave -noreg {/tb/t/SPI_i/firstByte}
+# add wave -noreg {/tb/t/SPI_i/d1}
+# add wave -noreg {/tb/t/SPI_i/addr}
+# add wave -noreg {/tb/t/SPI_i/byte_received}
+# add wave -noreg {/tb/t/SPI_i/in_data}
+# add wave -noreg {/tb/t/SPI_i/out_data}
+# add wave -noreg {/tb/t/SPI_i/clk}
+# add wave -noreg {/tb/t/SPI_i/SCK}
+# add wave -noreg {/tb/t/SPI_i/SSEL}
+# add wave -noreg {/tb/t/SPI_i/MOSI}
+# add wave -noreg {/tb/t/SPI_i/MISO}
+# add wave -noreg {/tb/t/SPI_i/SPI_Read}
+# add wave -noreg {/tb/t/SPI_i/SPI_Write}
+# add wave -noreg {/tb/t/SPI_i/SPI_Data_Available}
+# add wave -noreg {/tb/t/SPI_i/AddrBus}
+# add wave -noreg {/tb/t/SPI_i/DataBus}
+# 27 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not

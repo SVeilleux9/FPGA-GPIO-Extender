@@ -1,0 +1,11 @@
+D:\FPGA\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_comp.srs  -hdllog  C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synlog\template_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\  -I D:\FPGA\synpbase\lib   -v2001  -devicelib  D:\FPGA\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v -lib work C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v -lib work C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v -lib work C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v 
+rc:0 success:1 runtime:2
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_comp.srs|io:o|time:1608173848|size:10221|exec:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synlog\template_compiler.srr|io:o|time:1608173848|size:8374|exec:0
+file:D:\FPGA\synpbase\lib\generic\sb_ice40.v|io:i|time:1607133115|size:224837|exec:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v|io:i|time:1608086885|size:1024|exec:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v|io:i|time:1608158864|size:1531|exec:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v|io:i|time:1608087117|size:3359|exec:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v|io:i|time:1608085665|size:1340|exec:0
+file:D:\FPGA\synpbase\bin\c_hdl.exe|io:i|time:1607133101|size:1338368|exec:1
+file:D:\FPGA\synpbase\bin64\c_hdl.exe|io:i|time:1607133107|size:1754112|exec:1

@@ -1,0 +1,205 @@
+ble_pack SPI_i.addr[0]_LC_4 {SPI_i.addr[0], SPI_i.addr_cry_c[0], SPI_i.addr_RNO[0]}
+ble_pack SPI_i.addr[1]_LC_5 {SPI_i.addr[1], SPI_i.addr_cry_c[1], SPI_i.addr_RNO[1]}
+ble_pack SPI_i.addr[2]_LC_6 {SPI_i.addr[2], SPI_i.addr_cry_c[2], SPI_i.addr_RNO[2]}
+ble_pack SPI_i.addr[3]_LC_7 {SPI_i.addr[3], SPI_i.addr_cry_c[3], SPI_i.addr_RNO[3]}
+ble_pack SPI_i.addr[4]_LC_8 {SPI_i.addr[4], SPI_i.addr_cry_c[4], SPI_i.addr_RNO[4]}
+ble_pack SPI_i.addr[5]_LC_9 {SPI_i.addr[5], SPI_i.addr_cry_c[5], SPI_i.addr_RNO[5]}
+ble_pack SPI_i.addr[6]_LC_10 {SPI_i.addr[6], SPI_i.addr_cry_c[6], SPI_i.addr_RNO[6]}
+ble_pack SPI_i.addr[7]_LC_11 {SPI_i.addr[7], SPI_i.addr_RNO[7]}
+clb_pack PLB_0 {SPI_i.addr[0]_LC_4, SPI_i.addr[1]_LC_5, SPI_i.addr[2]_LC_6, SPI_i.addr[3]_LC_7, SPI_i.addr[4]_LC_8, SPI_i.addr[5]_LC_9, SPI_i.addr[6]_LC_10, SPI_i.addr[7]_LC_11}
+ble_pack SPI_i.SPI_Data_Available_RNO_0_LC_3 {SPI_i.SPI_Data_Available_RNO_0}
+ble_pack SPI_i.start_transaction_RNIH4TN_LC_52 {SPI_i.start_transaction_RNIH4TN}
+ble_pack SPI_i.r_w_LC_49 {SPI_i.r_w, SPI_i.r_w_RNO}
+ble_pack SPI_i.secondByte_LC_51 {SPI_i.secondByte, SPI_i.secondByte_RNO}
+ble_pack SPI_i.start_transaction_LC_53 {SPI_i.start_transaction, SPI_i.start_transaction_RNO}
+ble_pack SPI_i.secondByte_RNIMPLF1_LC_50 {SPI_i.secondByte_RNIMPLF1}
+ble_pack SPI_i.addr_sent_LC_12 {SPI_i.addr_sent, SPI_i.addr_sent_RNO}
+ble_pack SPI_i.firstByte_LC_33 {SPI_i.firstByte, SPI_i.firstByte_RNO}
+clb_pack PLB_1 {SPI_i.SPI_Data_Available_RNO_0_LC_3, SPI_i.start_transaction_RNIH4TN_LC_52, SPI_i.r_w_LC_49, SPI_i.secondByte_LC_51, SPI_i.start_transaction_LC_53, SPI_i.secondByte_RNIMPLF1_LC_50, SPI_i.addr_sent_LC_12, SPI_i.firstByte_LC_33}
+ble_pack SPI_i.bit_out_esr_LC_13 {SPI_i.bit_out_esr, SPI_i.bit_out_esr_RNO}
+ble_pack SPI_i.bit_out_esr_RNO_3_LC_17 {SPI_i.bit_out_esr_RNO_3}
+ble_pack SPI_i.bit_out_esr_RNO_4_LC_18 {SPI_i.bit_out_esr_RNO_4}
+ble_pack SPI_i.bit_out_esr_RNO_5_LC_19 {SPI_i.bit_out_esr_RNO_5}
+ble_pack SPI_i.bit_out_esr_RNO_1_LC_15 {SPI_i.bit_out_esr_RNO_1}
+ble_pack SPI_i.bit_out_esr_RNO_2_LC_16 {SPI_i.bit_out_esr_RNO_2}
+ble_pack SPI_i.byte_received_RNO_0_LC_24 {SPI_i.byte_received_RNO_0}
+ble_pack SPI_i.SCKr_RNITKRV[2]_LC_1 {SPI_i.SCKr_RNITKRV[2]}
+clb_pack PLB_2 {SPI_i.bit_out_esr_LC_13, SPI_i.bit_out_esr_RNO_3_LC_17, SPI_i.bit_out_esr_RNO_4_LC_18, SPI_i.bit_out_esr_RNO_5_LC_19, SPI_i.bit_out_esr_RNO_1_LC_15, SPI_i.bit_out_esr_RNO_2_LC_16, SPI_i.byte_received_RNO_0_LC_24, SPI_i.SCKr_RNITKRV[2]_LC_1}
+ble_pack SPI_i.out_data[0]_LC_37 {SPI_i.out_data[0], SPI_i.out_data_RNO[0]}
+ble_pack SPI_i.data_esr_RNI8LFP[0]_LC_25 {SPI_i.data_esr_RNI8LFP[0]}
+ble_pack SPI_i.state_RNIRVGL[0]_LC_55 {SPI_i.state_RNIRVGL[0]}
+ble_pack SPI_i.out_data[1]_LC_42 {SPI_i.out_data[1], SPI_i.out_data_RNO[1]}
+ble_pack SPI_i.data_esr_RNIANFP[1]_LC_26 {SPI_i.data_esr_RNIANFP[1]}
+ble_pack SPI_i.out_data[4]_LC_45 {SPI_i.out_data[4], SPI_i.out_data_RNO[4]}
+ble_pack SPI_i.data_esr_RNIGTFP[4]_LC_29 {SPI_i.data_esr_RNIGTFP[4]}
+ble_pack SPI_i.out_data[5]_LC_46 {SPI_i.out_data[5], SPI_i.out_data_RNO[5]}
+clb_pack PLB_3 {SPI_i.out_data[0]_LC_37, SPI_i.data_esr_RNI8LFP[0]_LC_25, SPI_i.state_RNIRVGL[0]_LC_55, SPI_i.out_data[1]_LC_42, SPI_i.data_esr_RNIANFP[1]_LC_26, SPI_i.out_data[4]_LC_45, SPI_i.data_esr_RNIGTFP[4]_LC_29, SPI_i.out_data[5]_LC_46}
+ble_pack SPI_i.out_data[2]_LC_43 {SPI_i.out_data[2], SPI_i.out_data_RNO[2]}
+ble_pack SPI_i.out_data_RNO_0[2]_LC_38 {SPI_i.out_data_RNO_0[2]}
+ble_pack SPI_i.byte_received_RNIG0KF_LC_20 {SPI_i.byte_received_RNIG0KF}
+ble_pack SPI_i.out_data[3]_LC_44 {SPI_i.out_data[3], SPI_i.out_data_RNO[3]}
+ble_pack SPI_i.out_data_RNO_0[3]_LC_39 {SPI_i.out_data_RNO_0[3]}
+ble_pack SPI_i.data_esr_RNICPFP[2]_LC_27 {SPI_i.data_esr_RNICPFP[2]}
+ble_pack SPI_i.data_esr_RNIERFP[3]_LC_28 {SPI_i.data_esr_RNIERFP[3]}
+ble_pack SPI_i.out_data[6]_LC_47 {SPI_i.out_data[6], SPI_i.out_data_RNO[6]}
+clb_pack PLB_4 {SPI_i.out_data[2]_LC_43, SPI_i.out_data_RNO_0[2]_LC_38, SPI_i.byte_received_RNIG0KF_LC_20, SPI_i.out_data[3]_LC_44, SPI_i.out_data_RNO_0[3]_LC_39, SPI_i.data_esr_RNICPFP[2]_LC_27, SPI_i.data_esr_RNIERFP[3]_LC_28, SPI_i.out_data[6]_LC_47}
+ble_pack SPI_i.out_data[7]_LC_48 {SPI_i.out_data[7], SPI_i.out_data_RNO[7]}
+ble_pack SPI_i.out_data_RNO_0[7]_LC_41 {SPI_i.out_data_RNO_0[7]}
+ble_pack SPI_i.data_esr_RNIM3GP[7]_LC_32 {SPI_i.data_esr_RNIM3GP[7]}
+ble_pack SPI_i.out_data_RNO_0[6]_LC_40 {SPI_i.out_data_RNO_0[6]}
+ble_pack reg_mag_i.addr_rcv_RNI21OF_LC_60 {reg_mag_i.addr_rcv_RNI21OF}
+ble_pack reg_mag_i.data_rcv_RNIETQN_LC_61 {reg_mag_i.data_rcv_RNIETQN}
+ble_pack SPI_i.data_esr_RNIIVFP[5]_LC_30 {SPI_i.data_esr_RNIIVFP[5]}
+ble_pack SPI_i.data_esr_RNIK1GP[6]_LC_31 {SPI_i.data_esr_RNIK1GP[6]}
+clb_pack PLB_5 {SPI_i.out_data[7]_LC_48, SPI_i.out_data_RNO_0[7]_LC_41, SPI_i.data_esr_RNIM3GP[7]_LC_32, SPI_i.out_data_RNO_0[6]_LC_40, reg_mag_i.addr_rcv_RNI21OF_LC_60, reg_mag_i.data_rcv_RNIETQN_LC_61, SPI_i.data_esr_RNIIVFP[5]_LC_30, SPI_i.data_esr_RNIK1GP[6]_LC_31}
+ble_pack reg_mag_i.inAddr_0_rep1_LC_63 {reg_mag_i.inAddr_0_rep1, reg_mag_i.inAddr_0_rep1_RNO}
+ble_pack reg_mag_i.outData_RNO_0[0]_LC_97 {reg_mag_i.outData_RNO_0[0]}
+ble_pack reg_mag_i.outData_RNO_0[2]_LC_99 {reg_mag_i.outData_RNO_0[2]}
+ble_pack reg_mag_i.outData_RNO_0[4]_LC_101 {reg_mag_i.outData_RNO_0[4]}
+ble_pack reg_mag_i.outData_RNO_0[6]_LC_103 {reg_mag_i.outData_RNO_0[6]}
+ble_pack reg_mag_i.inAddr_1_rep1_LC_64 {reg_mag_i.inAddr_1_rep1, reg_mag_i.inAddr_1_rep1_RNO}
+ble_pack reg_mag_i.outData_RNO_1[0]_LC_106 {reg_mag_i.outData_RNO_1[0]}
+ble_pack reg_mag_i.outData_RNO_1[2]_LC_108 {reg_mag_i.outData_RNO_1[2]}
+clb_pack PLB_6 {reg_mag_i.inAddr_0_rep1_LC_63, reg_mag_i.outData_RNO_0[0]_LC_97, reg_mag_i.outData_RNO_0[2]_LC_99, reg_mag_i.outData_RNO_0[4]_LC_101, reg_mag_i.outData_RNO_0[6]_LC_103, reg_mag_i.inAddr_1_rep1_LC_64, reg_mag_i.outData_RNO_1[0]_LC_106, reg_mag_i.outData_RNO_1[2]_LC_108}
+ble_pack reg_mag_i.inAddr_7_rep1_LC_69 {reg_mag_i.inAddr_7_rep1, reg_mag_i.inAddr_7_rep1_RNO}
+ble_pack reg_mag_i.inAddr_7_rep1_RNI4I6H_0_LC_66 {reg_mag_i.inAddr_7_rep1_RNI4I6H_0}
+ble_pack reg_mag_i.inAddr_RNI7IST1[0]_LC_70 {reg_mag_i.inAddr_RNI7IST1[0]}
+ble_pack reg_mag_i.inAddr_RNIUITV[4]_LC_75 {reg_mag_i.inAddr_RNIUITV[4]}
+ble_pack reg_mag_i.inAddr_RNI7IST1_0[0]_LC_71 {reg_mag_i.inAddr_RNI7IST1_0[0]}
+ble_pack reg_mag_i.inAddr_RNI7IST1_1[0]_LC_72 {reg_mag_i.inAddr_RNI7IST1_1[0]}
+ble_pack reg_mag_i.inAddr_RNI7IST1_2[0]_LC_73 {reg_mag_i.inAddr_RNI7IST1_2[0]}
+ble_pack reg_mag_i.inAddr_RNIO8HP[2]_LC_74 {reg_mag_i.inAddr_RNIO8HP[2]}
+clb_pack PLB_7 {reg_mag_i.inAddr_7_rep1_LC_69, reg_mag_i.inAddr_7_rep1_RNI4I6H_0_LC_66, reg_mag_i.inAddr_RNI7IST1[0]_LC_70, reg_mag_i.inAddr_RNIUITV[4]_LC_75, reg_mag_i.inAddr_RNI7IST1_0[0]_LC_71, reg_mag_i.inAddr_RNI7IST1_1[0]_LC_72, reg_mag_i.inAddr_RNI7IST1_2[0]_LC_73, reg_mag_i.inAddr_RNIO8HP[2]_LC_74}
+ble_pack reg_mag_i.inAddr[0]_LC_76 {reg_mag_i.inAddr[0], reg_mag_i.inAddr_RNO[0]}
+ble_pack reg_mag_i.outData_RNO_1[1]_LC_107 {reg_mag_i.outData_RNO_1[1]}
+ble_pack reg_mag_i.outData_RNO_1[3]_LC_109 {reg_mag_i.outData_RNO_1[3]}
+ble_pack reg_mag_i.outData_RNO_1[5]_LC_111 {reg_mag_i.outData_RNO_1[5]}
+ble_pack reg_mag_i.outData_RNO_1[7]_LC_113 {reg_mag_i.outData_RNO_1[7]}
+ble_pack reg_mag_i.inAddr[1]_LC_77 {reg_mag_i.inAddr[1], reg_mag_i.inAddr_RNO[1]}
+ble_pack reg_mag_i.inAddr_fast[0]_LC_85 {reg_mag_i.inAddr_fast[0], reg_mag_i.inAddr_fast_RNO[0]}
+ble_pack reg_mag_i.outData_RNO_2[1]_LC_115 {reg_mag_i.outData_RNO_2[1]}
+clb_pack PLB_8 {reg_mag_i.inAddr[0]_LC_76, reg_mag_i.outData_RNO_1[1]_LC_107, reg_mag_i.outData_RNO_1[3]_LC_109, reg_mag_i.outData_RNO_1[5]_LC_111, reg_mag_i.outData_RNO_1[7]_LC_113, reg_mag_i.inAddr[1]_LC_77, reg_mag_i.inAddr_fast[0]_LC_85, reg_mag_i.outData_RNO_2[1]_LC_115}
+ble_pack reg_mag_i.inAddr[2]_LC_78 {reg_mag_i.inAddr[2], reg_mag_i.inAddr_RNO[2]}
+ble_pack reg_mag_i.inAddr[3]_LC_79 {reg_mag_i.inAddr[3], reg_mag_i.inAddr_RNO[3]}
+ble_pack reg_mag_i.inAddr[4]_LC_80 {reg_mag_i.inAddr[4], reg_mag_i.inAddr_RNO[4]}
+ble_pack reg_mag_i.inAddr[5]_LC_81 {reg_mag_i.inAddr[5], reg_mag_i.inAddr_RNO[5]}
+ble_pack reg_mag_i.inAddr[6]_LC_82 {reg_mag_i.inAddr[6], reg_mag_i.inAddr_RNO[6]}
+ble_pack reg_mag_i.inAddr_fast[7]_LC_87 {reg_mag_i.inAddr_fast[7], reg_mag_i.inAddr_fast_RNO[7]}
+ble_pack reg_mag_i.outData_RNO_2[3]_LC_116 {reg_mag_i.outData_RNO_2[3]}
+ble_pack reg_mag_i.outData_RNO_0[3]_LC_100 {reg_mag_i.outData_RNO_0[3]}
+clb_pack PLB_9 {reg_mag_i.inAddr[2]_LC_78, reg_mag_i.inAddr[3]_LC_79, reg_mag_i.inAddr[4]_LC_80, reg_mag_i.inAddr[5]_LC_81, reg_mag_i.inAddr[6]_LC_82, reg_mag_i.inAddr_fast[7]_LC_87, reg_mag_i.outData_RNO_2[3]_LC_116, reg_mag_i.outData_RNO_0[3]_LC_100}
+ble_pack reg_mag_i.inAddr[7]_LC_83 {reg_mag_i.inAddr[7], reg_mag_i.inAddr_RNO[7]}
+ble_pack reg_mag_i.outData_RNO_0[7]_LC_104 {reg_mag_i.outData_RNO_0[7]}
+ble_pack reg_mag_i.outData_RNO_2[7]_LC_118 {reg_mag_i.outData_RNO_2[7]}
+ble_pack reg_mag_i.inAddr_fast_RNIV5K3[0]_LC_84 {reg_mag_i.inAddr_fast_RNIV5K3[0]}
+ble_pack reg_mag_i.inAddr_fast[1]_LC_86 {reg_mag_i.inAddr_fast[1], reg_mag_i.inAddr_fast_RNO[1]}
+ble_pack reg_mag_i.outData_RNO_2[5]_LC_117 {reg_mag_i.outData_RNO_2[5]}
+ble_pack reg_mag_i.outData_RNO_0[5]_LC_102 {reg_mag_i.outData_RNO_0[5]}
+ble_pack reg_mag_i.outData_RNO_0[1]_LC_98 {reg_mag_i.outData_RNO_0[1]}
+clb_pack PLB_10 {reg_mag_i.inAddr[7]_LC_83, reg_mag_i.outData_RNO_0[7]_LC_104, reg_mag_i.outData_RNO_2[7]_LC_118, reg_mag_i.inAddr_fast_RNIV5K3[0]_LC_84, reg_mag_i.inAddr_fast[1]_LC_86, reg_mag_i.outData_RNO_2[5]_LC_117, reg_mag_i.outData_RNO_0[5]_LC_102, reg_mag_i.outData_RNO_0[1]_LC_98}
+ble_pack reg_mag_i.inData[0]_LC_88 {reg_mag_i.inData[0], reg_mag_i.inData_RNO[0]}
+ble_pack reg_mag_i.inData[1]_LC_89 {reg_mag_i.inData[1], reg_mag_i.inData_RNO[1]}
+ble_pack reg_mag_i.inData[2]_LC_90 {reg_mag_i.inData[2], reg_mag_i.inData_RNO[2]}
+ble_pack reg_mag_i.inData[3]_LC_91 {reg_mag_i.inData[3], reg_mag_i.inData_RNO[3]}
+ble_pack reg_mag_i.inData[4]_LC_92 {reg_mag_i.inData[4], reg_mag_i.inData_RNO[4]}
+ble_pack reg_mag_i.inData[5]_LC_93 {reg_mag_i.inData[5], reg_mag_i.inData_RNO[5]}
+ble_pack reg_mag_i.inData[6]_LC_94 {reg_mag_i.inData[6], reg_mag_i.inData_RNO[6]}
+ble_pack reg_mag_i.inData[7]_LC_95 {reg_mag_i.inData[7], reg_mag_i.inData_RNO[7]}
+clb_pack PLB_11 {reg_mag_i.inData[0]_LC_88, reg_mag_i.inData[1]_LC_89, reg_mag_i.inData[2]_LC_90, reg_mag_i.inData[3]_LC_91, reg_mag_i.inData[4]_LC_92, reg_mag_i.inData[5]_LC_93, reg_mag_i.inData[6]_LC_94, reg_mag_i.inData[7]_LC_95}
+ble_pack reg_mag_i.outData[0]_LC_96 {reg_mag_i.outData[0], reg_mag_i.outData_RNO[0]}
+ble_pack reg_mag_i.outData[4]_LC_120 {reg_mag_i.outData[4], reg_mag_i.outData_RNO[4]}
+ble_pack reg_mag_i.outData_RNO_1[4]_LC_110 {reg_mag_i.outData_RNO_1[4]}
+ble_pack reg_mag_i.outData[5]_LC_121 {reg_mag_i.outData[5], reg_mag_i.outData_RNO[5]}
+ble_pack reg_mag_i.outData[2]_LC_114 {reg_mag_i.outData[2], reg_mag_i.outData_RNO[2]}
+ble_pack reg_mag_i.outData[3]_LC_119 {reg_mag_i.outData[3], reg_mag_i.outData_RNO[3]}
+ble_pack reg_mag_i.outData[6]_LC_122 {reg_mag_i.outData[6], reg_mag_i.outData_RNO[6]}
+ble_pack reg_mag_i.outData_RNO_1[6]_LC_112 {reg_mag_i.outData_RNO_1[6]}
+clb_pack PLB_12 {reg_mag_i.outData[0]_LC_96, reg_mag_i.outData[4]_LC_120, reg_mag_i.outData_RNO_1[4]_LC_110, reg_mag_i.outData[5]_LC_121, reg_mag_i.outData[2]_LC_114, reg_mag_i.outData[3]_LC_119, reg_mag_i.outData[6]_LC_122, reg_mag_i.outData_RNO_1[6]_LC_112}
+ble_pack reg_mag_i.outData[1]_LC_105 {reg_mag_i.outData[1], reg_mag_i.outData_RNO[1]}
+ble_pack reg_mag_i.outData[7]_LC_123 {reg_mag_i.outData[7], reg_mag_i.outData_RNO[7]}
+ble_pack SPI_i.SCKr_RNI8KO51[2]_LC_0 {SPI_i.SCKr_RNI8KO51[2]}
+ble_pack SPI_i.state_RNIBVS5[0]_LC_54 {SPI_i.state_RNIBVS5[0]}
+ble_pack SPI_i.bit_out_esr_RNO_0_LC_14 {SPI_i.bit_out_esr_RNO_0}
+ble_pack SPI_i.byte_received_RNIM5SC1_LC_21 {SPI_i.byte_received_RNIM5SC1}
+ble_pack SPI_i.byte_received_RNIQDQT_LC_22 {SPI_i.byte_received_RNIQDQT}
+ble_pack reg_mag_i.inAddr_7_rep1_RNI4I6H_LC_65 {reg_mag_i.inAddr_7_rep1_RNI4I6H}
+clb_pack PLB_13 {reg_mag_i.outData[1]_LC_105, reg_mag_i.outData[7]_LC_123, SPI_i.SCKr_RNI8KO51[2]_LC_0, SPI_i.state_RNIBVS5[0]_LC_54, SPI_i.bit_out_esr_RNO_0_LC_14, SPI_i.byte_received_RNIM5SC1_LC_21, SPI_i.byte_received_RNIQDQT_LC_22, reg_mag_i.inAddr_7_rep1_RNI4I6H_LC_65}
+ble_pack SPI_i.SPI_Data_Available_LC_2 {SPI_i.SPI_Data_Available, SPI_i.SPI_Data_Available_RNO}
+ble_pack reg_mag_i.inAddr_7_rep1_RNI4I6H_1_LC_67 {reg_mag_i.inAddr_7_rep1_RNI4I6H_1}
+ble_pack reg_mag_i.inAddr_7_rep1_RNI4I6H_2_LC_68 {reg_mag_i.inAddr_7_rep1_RNI4I6H_2}
+ble_pack LC_180 {CONSTANT_ONE_LUT4}
+clb_pack PLB_14 {SPI_i.SPI_Data_Available_LC_2, reg_mag_i.inAddr_7_rep1_RNI4I6H_1_LC_67, reg_mag_i.inAddr_7_rep1_RNI4I6H_2_LC_68, LC_180}
+ble_pack SPI_i.byte_received_LC_23 {SPI_i.byte_received, SPI_i.byte_received_RNO}
+ble_pack SPI_i.state[0]_LC_56 {SPI_i.state[0], SPI_i.state_RNO[0]}
+ble_pack SPI_i.SSELr[1]_LC_130 {SPI_i.SSELr[1], SPI_i.SSELr_1_THRU_LUT4_0}
+ble_pack SPI_i.SSELr[0]_LC_129 {SPI_i.SSELr[0], SPI_i.SSELr_0_THRU_LUT4_0}
+ble_pack SPI_i.out_cnt[1]_LC_35 {SPI_i.out_cnt[1], SPI_i.out_cnt_RNO[1]}
+ble_pack SPI_i.out_cnt[0]_LC_34 {SPI_i.out_cnt[0], SPI_i.out_cnt_RNO[0]}
+ble_pack SPI_i.SCKr[1]_LC_127 {SPI_i.SCKr[1], SPI_i.SCKr_1_THRU_LUT4_0}
+ble_pack SPI_i.SCKr[2]_LC_128 {SPI_i.SCKr[2], SPI_i.SCKr_2_THRU_LUT4_0}
+clb_pack PLB_15 {SPI_i.byte_received_LC_23, SPI_i.state[0]_LC_56, SPI_i.SSELr[1]_LC_130, SPI_i.SSELr[0]_LC_129, SPI_i.out_cnt[1]_LC_35, SPI_i.out_cnt[0]_LC_34, SPI_i.SCKr[1]_LC_127, SPI_i.SCKr[2]_LC_128}
+ble_pack SPI_i.out_cnt[2]_LC_36 {SPI_i.out_cnt[2], SPI_i.out_cnt_RNO[2]}
+clb_pack PLB_16 {SPI_i.out_cnt[2]_LC_36}
+ble_pack controller.SPI_In_LC_57 {controller.SPI_In, controller.SPI_In_RNO}
+ble_pack reg_mag_i.RegMap_Data_Available_LC_59 {reg_mag_i.RegMap_Data_Available, reg_mag_i.RegMap_Data_Available_RNO}
+ble_pack controller.SPI_Out_LC_58 {controller.SPI_Out, controller.SPI_Out_RNO}
+ble_pack reg_mag_i.data_rcv_LC_62 {reg_mag_i.data_rcv, reg_mag_i.data_rcv_RNO}
+ble_pack reg_mag_i.addr_rcv_LC_147 {reg_mag_i.addr_rcv, reg_mag_i.addr_rcv_THRU_LUT4_0}
+ble_pack SPI_i.MOSIr[0]_LC_124 {SPI_i.MOSIr[0], SPI_i.MOSIr_0_THRU_LUT4_0}
+ble_pack SPI_i.MOSIr[1]_LC_125 {SPI_i.MOSIr[1], SPI_i.MOSIr_1_THRU_LUT4_0}
+ble_pack SPI_i.SCKr[0]_LC_126 {SPI_i.SCKr[0], SPI_i.SCKr_0_THRU_LUT4_0}
+clb_pack PLB_17 {controller.SPI_In_LC_57, reg_mag_i.RegMap_Data_Available_LC_59, controller.SPI_Out_LC_58, reg_mag_i.data_rcv_LC_62, reg_mag_i.addr_rcv_LC_147, SPI_i.MOSIr[0]_LC_124, SPI_i.MOSIr[1]_LC_125, SPI_i.SCKr[0]_LC_126}
+ble_pack SPI_i.data_esr[0]_LC_131 {SPI_i.data_esr[0], SPI_i.data_esr_0_THRU_LUT4_0}
+ble_pack SPI_i.data_esr[1]_LC_132 {SPI_i.data_esr[1], SPI_i.data_esr_1_THRU_LUT4_0}
+ble_pack SPI_i.data_esr[2]_LC_133 {SPI_i.data_esr[2], SPI_i.data_esr_2_THRU_LUT4_0}
+ble_pack SPI_i.data_esr[3]_LC_134 {SPI_i.data_esr[3], SPI_i.data_esr_3_THRU_LUT4_0}
+ble_pack SPI_i.data_esr[4]_LC_135 {SPI_i.data_esr[4], SPI_i.data_esr_4_THRU_LUT4_0}
+ble_pack SPI_i.data_esr[5]_LC_136 {SPI_i.data_esr[5], SPI_i.data_esr_5_THRU_LUT4_0}
+ble_pack SPI_i.data_esr[6]_LC_137 {SPI_i.data_esr[6], SPI_i.data_esr_6_THRU_LUT4_0}
+ble_pack SPI_i.data_esr[7]_LC_138 {SPI_i.data_esr[7], SPI_i.data_esr_7_THRU_LUT4_0}
+clb_pack PLB_18 {SPI_i.data_esr[0]_LC_131, SPI_i.data_esr[1]_LC_132, SPI_i.data_esr[2]_LC_133, SPI_i.data_esr[3]_LC_134, SPI_i.data_esr[4]_LC_135, SPI_i.data_esr[5]_LC_136, SPI_i.data_esr[6]_LC_137, SPI_i.data_esr[7]_LC_138}
+ble_pack SPI_i.in_data[0]_LC_139 {SPI_i.in_data[0], SPI_i.in_data_0_THRU_LUT4_0}
+ble_pack SPI_i.in_data[1]_LC_140 {SPI_i.in_data[1], SPI_i.in_data_1_THRU_LUT4_0}
+ble_pack SPI_i.in_data[2]_LC_141 {SPI_i.in_data[2], SPI_i.in_data_2_THRU_LUT4_0}
+ble_pack SPI_i.in_data[3]_LC_142 {SPI_i.in_data[3], SPI_i.in_data_3_THRU_LUT4_0}
+ble_pack SPI_i.in_data[4]_LC_143 {SPI_i.in_data[4], SPI_i.in_data_4_THRU_LUT4_0}
+ble_pack SPI_i.in_data[5]_LC_144 {SPI_i.in_data[5], SPI_i.in_data_5_THRU_LUT4_0}
+ble_pack SPI_i.in_data[6]_LC_145 {SPI_i.in_data[6], SPI_i.in_data_6_THRU_LUT4_0}
+ble_pack SPI_i.in_data[7]_LC_146 {SPI_i.in_data[7], SPI_i.in_data_7_THRU_LUT4_0}
+clb_pack PLB_19 {SPI_i.in_data[0]_LC_139, SPI_i.in_data[1]_LC_140, SPI_i.in_data[2]_LC_141, SPI_i.in_data[3]_LC_142, SPI_i.in_data[4]_LC_143, SPI_i.in_data[5]_LC_144, SPI_i.in_data[6]_LC_145, SPI_i.in_data[7]_LC_146}
+ble_pack reg_mag_i.registers_0_[0]_LC_148 {reg_mag_i.registers_0_[0], reg_mag_i.registers_0__0_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_0_[1]_LC_149 {reg_mag_i.registers_0_[1], reg_mag_i.registers_0__1_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_0_[2]_LC_150 {reg_mag_i.registers_0_[2], reg_mag_i.registers_0__2_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_0_[3]_LC_151 {reg_mag_i.registers_0_[3], reg_mag_i.registers_0__3_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_0_[4]_LC_152 {reg_mag_i.registers_0_[4], reg_mag_i.registers_0__4_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_0_[5]_LC_153 {reg_mag_i.registers_0_[5], reg_mag_i.registers_0__5_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_0_[6]_LC_154 {reg_mag_i.registers_0_[6], reg_mag_i.registers_0__6_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_0_[7]_LC_155 {reg_mag_i.registers_0_[7], reg_mag_i.registers_0__7_THRU_LUT4_0}
+clb_pack PLB_20 {reg_mag_i.registers_0_[0]_LC_148, reg_mag_i.registers_0_[1]_LC_149, reg_mag_i.registers_0_[2]_LC_150, reg_mag_i.registers_0_[3]_LC_151, reg_mag_i.registers_0_[4]_LC_152, reg_mag_i.registers_0_[5]_LC_153, reg_mag_i.registers_0_[6]_LC_154, reg_mag_i.registers_0_[7]_LC_155}
+ble_pack reg_mag_i.registers_1_[0]_LC_156 {reg_mag_i.registers_1_[0], reg_mag_i.registers_1__0_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_1_[1]_LC_157 {reg_mag_i.registers_1_[1], reg_mag_i.registers_1__1_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_1_[2]_LC_158 {reg_mag_i.registers_1_[2], reg_mag_i.registers_1__2_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_1_[3]_LC_159 {reg_mag_i.registers_1_[3], reg_mag_i.registers_1__3_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_1_[4]_LC_160 {reg_mag_i.registers_1_[4], reg_mag_i.registers_1__4_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_1_[5]_LC_161 {reg_mag_i.registers_1_[5], reg_mag_i.registers_1__5_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_1_[6]_LC_162 {reg_mag_i.registers_1_[6], reg_mag_i.registers_1__6_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_1_[7]_LC_163 {reg_mag_i.registers_1_[7], reg_mag_i.registers_1__7_THRU_LUT4_0}
+clb_pack PLB_21 {reg_mag_i.registers_1_[0]_LC_156, reg_mag_i.registers_1_[1]_LC_157, reg_mag_i.registers_1_[2]_LC_158, reg_mag_i.registers_1_[3]_LC_159, reg_mag_i.registers_1_[4]_LC_160, reg_mag_i.registers_1_[5]_LC_161, reg_mag_i.registers_1_[6]_LC_162, reg_mag_i.registers_1_[7]_LC_163}
+ble_pack reg_mag_i.registers_2_[0]_LC_164 {reg_mag_i.registers_2_[0], reg_mag_i.registers_2__0_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_2_[1]_LC_165 {reg_mag_i.registers_2_[1], reg_mag_i.registers_2__1_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_2_[2]_LC_166 {reg_mag_i.registers_2_[2], reg_mag_i.registers_2__2_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_2_[3]_LC_167 {reg_mag_i.registers_2_[3], reg_mag_i.registers_2__3_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_2_[4]_LC_168 {reg_mag_i.registers_2_[4], reg_mag_i.registers_2__4_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_2_[5]_LC_169 {reg_mag_i.registers_2_[5], reg_mag_i.registers_2__5_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_2_[6]_LC_170 {reg_mag_i.registers_2_[6], reg_mag_i.registers_2__6_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_2_[7]_LC_171 {reg_mag_i.registers_2_[7], reg_mag_i.registers_2__7_THRU_LUT4_0}
+clb_pack PLB_22 {reg_mag_i.registers_2_[0]_LC_164, reg_mag_i.registers_2_[1]_LC_165, reg_mag_i.registers_2_[2]_LC_166, reg_mag_i.registers_2_[3]_LC_167, reg_mag_i.registers_2_[4]_LC_168, reg_mag_i.registers_2_[5]_LC_169, reg_mag_i.registers_2_[6]_LC_170, reg_mag_i.registers_2_[7]_LC_171}
+ble_pack reg_mag_i.registers_3_[0]_LC_172 {reg_mag_i.registers_3_[0], reg_mag_i.registers_3__0_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_3_[1]_LC_173 {reg_mag_i.registers_3_[1], reg_mag_i.registers_3__1_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_3_[2]_LC_174 {reg_mag_i.registers_3_[2], reg_mag_i.registers_3__2_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_3_[3]_LC_175 {reg_mag_i.registers_3_[3], reg_mag_i.registers_3__3_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_3_[4]_LC_176 {reg_mag_i.registers_3_[4], reg_mag_i.registers_3__4_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_3_[5]_LC_177 {reg_mag_i.registers_3_[5], reg_mag_i.registers_3__5_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_3_[6]_LC_178 {reg_mag_i.registers_3_[6], reg_mag_i.registers_3__6_THRU_LUT4_0}
+ble_pack reg_mag_i.registers_3_[7]_LC_179 {reg_mag_i.registers_3_[7], reg_mag_i.registers_3__7_THRU_LUT4_0}
+clb_pack PLB_23 {reg_mag_i.registers_3_[0]_LC_172, reg_mag_i.registers_3_[1]_LC_173, reg_mag_i.registers_3_[2]_LC_174, reg_mag_i.registers_3_[3]_LC_175, reg_mag_i.registers_3_[4]_LC_176, reg_mag_i.registers_3_[5]_LC_177, reg_mag_i.registers_3_[6]_LC_178, reg_mag_i.registers_3_[7]_LC_179}

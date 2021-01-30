@@ -1,0 +1,65 @@
+timestamp=1608152625158
+
+[~A]
+C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v=0*46932*48589
+C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v_RegMap.v_top.v_top_tb.v=0*5223*7608
+C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/top.v_RegMap.v_SPI.v_MainController.v_top_tb.v=0*116656*120058
+C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/top.v_RegMap.v_SPI.v_top_tb.v=0*1089*3322
+LastVerilogToplevel=tb
+ModifyID=23
+Version=74
+
+[$root]
+A/$root=22|||1*278996
+BinI32/$root=3*201879
+SLP=3*201983
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c921682dd7ff3a80fc04200a5114b692aa365
+
+[MainController]
+A/MainController=22|./../../../verilog/modules/MainController.v|1|1*281528
+BinI32/MainController=3*202252
+R=./../../../verilog/modules/MainController.v|1
+SLP=3*203152
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8a9cc48c5bc07453cd1c3af2502e3e4432ca18b2a2ddfc0801c6bb039c0b6b1f383229bedfd3665ebf5a8527eba2737b
+
+[Reg_Map]
+A/Reg_Map=22|./../../../verilog/modules/RegMap.v|1|1*283640
+BinI32/Reg_Map=3*203813
+R=./../../../verilog/modules/RegMap.v|1
+SLP=3*204873
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b96babeb8f67670dafa93b18fffe25d526527262ddaa47cb266f3a3c4d9b973ad3c29ba277e88a331932b533a1787d9d
+
+[SPI]
+A/SPI=22|./../../../verilog/modules/SPI.v|1|1*285744
+BinI32/SPI=3*205653
+R=./../../../verilog/modules/SPI.v|1
+SLP=3*207810
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|1a1492de6c89d20b96bad3f92fac130105963c1b3bb21d4860051ced8646c855
+
+[tb]
+A/tb=22|./../../../verilog/top_tb.v|2|1*290580
+BinI32/tb=3*209468
+R=./../../../verilog/top_tb.v|2
+SLP=3*211029
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8db8692708dc0985d408d2497dbc95fac4a365e449046d03302b29ea3fb7657a
+
+[top]
+A/top=22|./../../../verilog/top.v|6|1*279354
+BinI32/top=3*202051
+R=./../../../verilog/top.v|6
+SLP=3*202153
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f1fdecad8dc292011c024b8d633bc5c700326bce429746a397d30664282ee80d
+
+[~MFT]
+0=10|0SPI_TestBench.mgf|120058|75588
+1=12|1SPI_TestBench.mgf|290580|278996
+3=24|3SPI_TestBench.mgf|211029|201879
+
+[~U]
+$root=12|0*115158|
+MainController=12|0*115602|
+Reg_Map=12|0*115895|
+SPI=12|0*116143|
+tb=12|0*116482||0x10
+top=12|0*115356|
+

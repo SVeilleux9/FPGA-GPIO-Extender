@@ -1,0 +1,96 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP8KCM81 (Lattice)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     118                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top:	118 (44.87 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       124                100 %                
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block top:	131 (49.81 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     6                  100 %                
+=================================================
+Total IO PADS in the block top:	6 (2.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   MainController   ########
+Instance path:   top.MainController                                 
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     2                  1.69 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top.MainController:	2 (0.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  1.61 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top.MainController:	2 (0.76 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   Reg_Map   ########
+Instance path:   top.Reg_Map                                 
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     65                 55.1 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top.Reg_Map:	65 (24.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     65                 52.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top.Reg_Map:	65 (24.71 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   SPI   ########
+Instance path:   top.SPI                                 
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     51                 43.2 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top.SPI:	51 (19.39 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       57                 46 %                 
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block top.SPI:	64 (24.33 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,7 @@
+D:\FPGA\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_comp.srs  -osyn  C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_mult.srs  -log  C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synlog\template_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_comp.srs|io:i|time:1608173848|size:10221|exec:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_mult.srs|io:o|time:1608173849|size:3141|exec:0
+file:C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synlog\template_multi_srs_gen.srr|io:o|time:1608173849|size:865|exec:0
+file:D:\FPGA\synpbase\bin\syn_nfilter.exe|io:i|time:1607133106|size:3128320|exec:1
+file:D:\FPGA\synpbase\bin64\syn_nfilter.exe|io:i|time:1607133112|size:3947520|exec:1

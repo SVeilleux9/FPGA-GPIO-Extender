@@ -1,0 +1,2 @@
+@E: CG791 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":49:22:49:22|Could not resolve hierarchical name 'reqAddr[6:0]'.
+

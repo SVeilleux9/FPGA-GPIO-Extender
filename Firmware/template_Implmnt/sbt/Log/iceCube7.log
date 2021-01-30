@@ -1,0 +1,4 @@
+4:09:47 PM
+Active-HDL command:
+ design create -a SPI_Write {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec}; design open -a {C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_Write}; addfile {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v} {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v} {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v} {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v} {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\spi_write.v};designverlibrarysim -L ovi_ice ice 
+8:22:09 PM

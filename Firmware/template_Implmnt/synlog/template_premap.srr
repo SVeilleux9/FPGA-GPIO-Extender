@@ -1,0 +1,75 @@
+# Wed Dec 16 21:57:29 2020
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template_scck.rpt 
+Printing clock  summary report in "C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":25:4:25:9|Removing sequential instance controller.RegMap_In because it is equivalent to instance controller.SPI_Out. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":25:4:25:9|Removing sequential instance controller.RegMap_Out because it is equivalent to instance controller.SPI_In. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_1 (in view: work.MainController(verilog)) on net AddrBus_1 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_2 (in view: work.MainController(verilog)) on net AddrBus_2 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_3 (in view: work.MainController(verilog)) on net AddrBus_3 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_4 (in view: work.MainController(verilog)) on net AddrBus_4 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_5 (in view: work.MainController(verilog)) on net AddrBus_5 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_6 (in view: work.MainController(verilog)) on net AddrBus_6 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_7 (in view: work.MainController(verilog)) on net AddrBus_7 (in view: work.MainController(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":5:17:5:23|Tristate driver AddrBus_8 (in view: work.MainController(verilog)) on net AddrBus_8 (in view: work.MainController(verilog)) has its enable tied to GND.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start       Requested     Requested     Clock        Clock                     Clock
+Clock       Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------
+top|CLK     147.8 MHz     6.765         inferred     Autoconstr_clkgroup_0     115  
+====================================================================================
+
+@W: MT529 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\maincontroller.v":25:4:25:9|Found inferred clock top|CLK which controls 115 sequential elements including controller.SPI_Out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: MO111 :|Tristate driver AddrBus_t[0] (in view: work.top(verilog)) on net AddrBus[0] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver AddrBus_t[1] (in view: work.top(verilog)) on net AddrBus[1] (in view: work.top(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 16 21:57:30 2020
+
+###########################################################]

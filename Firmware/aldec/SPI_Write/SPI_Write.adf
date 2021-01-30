@@ -1,0 +1,41 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=SPI_Write
+[Library]
+SPI_Write=.\SPI_Write\SPI_Write.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+LibNames=ovi_ice;ice
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+spi_write=.
+[Files]
+/..\..\..\verilog\top.v=-1
+/..\..\..\verilog\modules\RegMap.v=-1
+/..\..\..\verilog\modules\SPI.v=-1
+/..\..\..\verilog\modules\MainController.v=-1
+/..\..\..\verilog\spi_write.v=-1
+[Files.Data]
+.\..\..\verilog\top.v=Verilog Source Code
+.\..\..\verilog\modules\RegMap.v=Verilog Source Code
+.\..\..\verilog\modules\SPI.v=Verilog Source Code
+.\..\..\verilog\modules\MainController.v=Verilog Source Code
+.\..\..\verilog\spi_write.v=Verilog Source Code

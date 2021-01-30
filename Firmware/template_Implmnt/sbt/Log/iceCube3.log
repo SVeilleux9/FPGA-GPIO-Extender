@@ -1,0 +1,1601 @@
+4:50:46 PM
+"D:\FPGA\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -options "template_syn.prj" 
+starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Information : Using arguments of synplify instead, will not check them here.
+Synplify_Pro succeed.
+Synthesis runtime 109 seconds
+Current Implementation template_Implmnt its sbt path: C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt
+"D:\FPGA\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -options "template_syn.prj" 
+starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Information : Using arguments of synplify instead, will not check them here.
+Synplify_Pro succeed.
+Synthesis runtime 350 seconds
+Current Implementation template_Implmnt its sbt path: C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt
+template_Implmnt: newer file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt/template.edf detected. Need to run "Import P&R Input Files"
+"D:\FPGA\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "template_syn.prj" -log "template_Implmnt/template.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of template_Implmnt/template.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\FPGA\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-FRO5SSV
+
+# Sat Dec 05 17:09:29 2020
+
+#Implementation: template_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\FPGA\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"D:\FPGA\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\FPGA\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\FPGA\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\FPGA\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v" (library work)
+@I::"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v" (library work)
+@I::"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v" (library work)
+Verilog syntax check successful!
+File C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v changed - recompiling
+File C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":1:7:1:13|Synthesizing module Reg_Map in library work.
+
+@W: CG532 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":9:2:9:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Some of the address location in the memory "registers" are not assigned.
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":1:7:1:9|Synthesizing module SPI in library work.
+
+@W: CG532 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":42:2:42:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CL265 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":16:2:16:7|Removing unused bit 2 of SSELr[2:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Synthesizing module top in library work.
+
+@N: CL201 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":48:2:48:7|Trying to extract state machine for register state.
+@W: CL138 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":17:2:17:7|Removing register 'addr_data' because it is only assigned 0 or its original value.
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":2:7:2:9|Input clk is unused.
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":3:13:3:16|Input addr is unused.
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":5:7:5:14|Input new_addr is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:09:29 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:09:29 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:09:29 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:09:30 2020
+
+###########################################################]
+# Sat Dec 05 17:09:30 2020
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template_scck.rpt 
+Printing clock  summary report in "C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: BN115 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\top.v":17:12:17:20|Removing instance reg_mag_i (in view: work.top(verilog)) of type view:work.Reg_Map(verilog) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start       Requested     Requested     Clock        Clock                     Clock
+Clock       Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------
+top|CLK     185.3 MHz     5.395         inferred     Autoconstr_clkgroup_0     45   
+====================================================================================
+
+@W: MT529 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Found inferred clock top|CLK which controls 45 sequential elements including SPI_i.state[2:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 05 17:09:30 2020
+
+###########################################################]
+# Sat Dec 05 17:09:31 2020
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance addr[7:0] (in view: work.SPI(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance firstByte (in view: work.SPI(verilog)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance in_data[7:0] (in view: work.SPI(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":21:2:21:7|Removing sequential instance MOSIr[1:0] (in view: work.SPI(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":21:2:21:7|Boundary register MOSIr[1:0] (in view: work.SPI(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[7] because it is equivalent to instance SPI_i.out_data[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[6] because it is equivalent to instance SPI_i.out_data[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[3] because it is equivalent to instance SPI_i.out_data[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[5] because it is equivalent to instance SPI_i.out_data[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[4] because it is equivalent to instance SPI_i.out_data[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[1] because it is equivalent to instance SPI_i.out_data[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance out_data[0] (in view: work.SPI(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance SPI_i.out_cnt[2] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.56ns		  25 /        18
+   2		0h:00m:00s		    -1.56ns		  24 /        18
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Replicating instance SPI_i.state[1] (in view: work.top(verilog)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Replicating instance SPI_i.state[2] (in view: work.top(verilog)) with 17 loads 2 times to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   3		0h:00m:00s		    -1.56ns		  33 /        22
+
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":10:2:10:7|Replicating instance SPI_i.SCKr[1] (in view: work.top(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":95:6:95:13|Replicating instance SPI_i.in_cnt12_0_a4 (in view: work.top(verilog)) with 4 loads 3 time(s) to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+@A: BN291 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Boundary register SPI_i.new_addr (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FX1016 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\top.v":6:10:6:12|SB_GB_IO inserted on the port CLK.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 23 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks =============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance   
+------------------------------------------------------------------------------------------
+@K:CKID0001       CLK_ibuf_gb_io      SB_GB_IO               23         SPI_i.SCKr_fast[1]
+==========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 134MB)
+
+Writing Analyst data base C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@W: MT420 |Found inferred clock top|CLK with period 5.74ns. Please declare a user-defined clock on object "p:CLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Dec 05 17:09:32 2020
+#
+
+
+Top view:               top
+Requested Frequency:    174.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.013
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+top|CLK            174.3 MHz     148.1 MHz     5.738         6.751         -1.013     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+top|CLK   top|CLK  |  5.738       -1.013  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                            Arrival           
+Instance                Reference     Type        Pin     Net               Time        Slack 
+                        Clock                                                                 
+----------------------------------------------------------------------------------------------
+SPI_i.SCKr[1]           top|CLK       SB_DFF      Q       SCKr[1]           0.796       -1.013
+SPI_i.SCKr[2]           top|CLK       SB_DFF      Q       SCKr[2]           0.796       -1.013
+SPI_i.SSELr[1]          top|CLK       SB_DFF      Q       SSELr[1]          0.796       -1.013
+SPI_i.SCKr_fast[1]      top|CLK       SB_DFF      Q       SCKr_fast[1]      0.796       -0.940
+SPI_i.byte_received     top|CLK       SB_DFFE     Q       byte_received     0.796       -0.940
+SPI_i.in_cnt[2]         top|CLK       SB_DFF      Q       in_cnt[2]         0.796       -0.940
+SPI_i.out_cnt[0]        top|CLK       SB_DFF      Q       out_cnt[0]        0.796       -0.940
+SPI_i.state_1_rep1      top|CLK       SB_DFFE     Q       state_1_rep1      0.796       -0.940
+SPI_i.d1                top|CLK       SB_DFF      Q       d1                0.796       -0.909
+SPI_i.in_cnt[0]         top|CLK       SB_DFF      Q       in_cnt[0]         0.796       -0.909
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                               Required           
+Instance                Reference     Type         Pin     Net                 Time         Slack 
+                        Clock                                                                     
+--------------------------------------------------------------------------------------------------
+SPI_i.in_cnt[0]         top|CLK       SB_DFF       D       in_cnt              5.583        -1.013
+SPI_i.in_cnt[1]         top|CLK       SB_DFF       D       in_cnt_0            5.583        -1.013
+SPI_i.in_cnt[2]         top|CLK       SB_DFF       D       in_cnt_1            5.583        -1.013
+SPI_i.out_cnt[0]        top|CLK       SB_DFF       D       out_cnt             5.583        -1.013
+SPI_i.out_cnt[1]        top|CLK       SB_DFF       D       out_cnt_0           5.583        -1.013
+SPI_i.state[0]          top|CLK       SB_DFF       D       state               5.583        -1.013
+SPI_i.byte_received     top|CLK       SB_DFFE      D       byte_received_2     5.583        -0.909
+SPI_i.out_data[2]       top|CLK       SB_DFFSS     D       out_data_en[2]      5.583        -0.909
+SPI_i.state[1]          top|CLK       SB_DFFE      E       N_29                5.738        -0.858
+SPI_i.state[2]          top|CLK       SB_DFFE      E       N_29                5.738        -0.858
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr[1] / Q
+    Ending point:                            SPI_i.in_cnt[2] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                      Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+SPI_i.SCKr[1]             SB_DFF      Q        Out     0.796     0.796       -         
+SCKr[1]                   Net         -        -       1.599     -           4         
+SPI_i.in_cnt_RNO_0[2]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.in_cnt_RNO_0[2]     SB_LUT4     O        Out     0.661     3.056       -         
+N_8_0                     Net         -        -       1.371     -           1         
+SPI_i.in_cnt_RNO[2]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.in_cnt_RNO[2]       SB_LUT4     O        Out     0.661     5.089       -         
+in_cnt_1                  Net         -        -       1.507     -           1         
+SPI_i.in_cnt[2]           SB_DFF      D        In      -         6.596       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr[2] / Q
+    Ending point:                            SPI_i.in_cnt[1] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                      Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+SPI_i.SCKr[2]             SB_DFF      Q        Out     0.796     0.796       -         
+SCKr[2]                   Net         -        -       1.599     -           7         
+SPI_i.in_cnt_RNO_0[1]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.in_cnt_RNO_0[1]     SB_LUT4     O        Out     0.661     3.056       -         
+G_9_i_o2_0_1              Net         -        -       1.371     -           1         
+SPI_i.in_cnt_RNO[1]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.in_cnt_RNO[1]       SB_LUT4     O        Out     0.661     5.089       -         
+in_cnt_0                  Net         -        -       1.507     -           1         
+SPI_i.in_cnt[1]           SB_DFF      D        In      -         6.596       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SSELr[1] / Q
+    Ending point:                            SPI_i.state[0] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+SPI_i.SSELr[1]           SB_DFF      Q        Out     0.796     0.796       -         
+SSELr[1]                 Net         -        -       1.599     -           3         
+SPI_i.state_RNO_0[0]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.state_RNO_0[0]     SB_LUT4     O        Out     0.661     3.056       -         
+N_5                      Net         -        -       1.371     -           1         
+SPI_i.state_RNO[0]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.state_RNO[0]       SB_LUT4     O        Out     0.661     5.089       -         
+state                    Net         -        -       1.507     -           1         
+SPI_i.state[0]           SB_DFF      D        In      -         6.596       -         
+======================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr[1] / Q
+    Ending point:                            SPI_i.out_cnt[0] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+SPI_i.SCKr[1]              SB_DFF      Q        Out     0.796     0.796       -         
+SCKr[1]                    Net         -        -       1.599     -           4         
+SPI_i.out_cnt_RNO_0[0]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.out_cnt_RNO_0[0]     SB_LUT4     O        Out     0.661     3.056       -         
+out_cnt_r_1_0[0]           Net         -        -       1.371     -           1         
+SPI_i.out_cnt_RNO[0]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.out_cnt_RNO[0]       SB_LUT4     O        Out     0.661     5.089       -         
+out_cnt                    Net         -        -       1.507     -           1         
+SPI_i.out_cnt[0]           SB_DFF      D        In      -         6.596       -         
+========================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.524
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.940
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr_fast[1] / Q
+    Ending point:                            SPI_i.in_cnt[0] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                      Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+SPI_i.SCKr_fast[1]        SB_DFF      Q        Out     0.796     0.796       -         
+SCKr_fast[1]              Net         -        -       1.599     -           4         
+SPI_i.in_cnt_RNO_0[0]     SB_LUT4     I1       In      -         2.395       -         
+SPI_i.in_cnt_RNO_0[0]     SB_LUT4     O        Out     0.589     2.984       -         
+N_8_mux_i_1               Net         -        -       1.371     -           1         
+SPI_i.in_cnt_RNO[0]       SB_LUT4     I0       In      -         4.355       -         
+SPI_i.in_cnt_RNO[0]       SB_LUT4     O        Out     0.661     5.017       -         
+in_cnt                    Net         -        -       1.507     -           1         
+SPI_i.in_cnt[0]           SB_DFF      D        In      -         6.524       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 6.679 is 2.202(33.0%) logic and 4.477(67.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40lp8kcm81
+Cell usage:
+GND             1 use
+SB_DFF          13 uses
+SB_DFFE         7 uses
+SB_DFFESR       1 use
+SB_DFFSR        1 use
+SB_DFFSS        1 use
+VCC             1 use
+SB_LUT4         38 uses
+
+I/O ports: 6
+I/O primitives: 5
+SB_GB_IO       1 use
+SB_IO          4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   23 (0%)
+Total load per clock:
+   top|CLK: 1
+
+@S |Mapping Summary:
+Total  LUTs: 38 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 38 = 38 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 05 17:09:32 2020
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation template_Implmnt its sbt path: C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 4 seconds
+Active-HDL command:
+ design create -a SPI_TestBench {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec}; design open -a {C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench}; addfile {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v} {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v} {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v} {C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top_tb.v};designverlibrarysim -L ovi_ice ice 
+"D:\FPGA\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "template_syn.prj" -log "template_Implmnt/template.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of template_Implmnt/template.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\FPGA\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-FRO5SSV
+
+# Sat Dec 05 17:14:32 2020
+
+#Implementation: template_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\FPGA\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"D:\FPGA\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\FPGA\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\FPGA\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\FPGA\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v" (library work)
+@I::"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v" (library work)
+@I::"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module top
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":1:7:1:13|Synthesizing module Reg_Map in library work.
+
+@W: CG532 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":9:2:9:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Object registers_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":7:12:7:20|Some of the address location in the memory "registers" are not assigned.
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":1:7:1:9|Synthesizing module SPI in library work.
+
+@W: CG532 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":42:2:42:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CL265 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":16:2:16:7|Removing unused bit 2 of SSELr[2:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Synthesizing module top in library work.
+
+@N: CL201 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v":48:2:48:7|Trying to extract state machine for register state.
+@W: CL138 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":17:2:17:7|Removing register 'addr_data' because it is only assigned 0 or its original value.
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":2:7:2:9|Input clk is unused.
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":3:13:3:16|Input addr is unused.
+@N: CL159 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v":5:7:5:14|Input new_addr is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:14:32 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:14:32 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:14:32 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec 05 17:14:34 2020
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Dec 05 17:14:34 2020
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template_scck.rpt 
+Printing clock  summary report in "C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: BN115 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\top.v":17:12:17:20|Removing instance reg_mag_i (in view: work.top(verilog)) of type view:work.Reg_Map(verilog) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start       Requested     Requested     Clock        Clock                     Clock
+Clock       Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------
+top|CLK     185.3 MHz     5.395         inferred     Autoconstr_clkgroup_0     45   
+====================================================================================
+
+@W: MT529 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Found inferred clock top|CLK which controls 45 sequential elements including SPI_i.state[2:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 05 17:14:34 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Dec 05 17:14:34 2020
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance addr[7:0] (in view: work.SPI(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance firstByte (in view: work.SPI(verilog)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance in_data[7:0] (in view: work.SPI(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":21:2:21:7|Removing sequential instance MOSIr[1:0] (in view: work.SPI(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":21:2:21:7|Boundary register MOSIr[1:0] (in view: work.SPI(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[7] because it is equivalent to instance SPI_i.out_data[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[6] because it is equivalent to instance SPI_i.out_data[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[3] because it is equivalent to instance SPI_i.out_data[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[5] because it is equivalent to instance SPI_i.out_data[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[4] because it is equivalent to instance SPI_i.out_data[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing instance SPI_i.out_data[1] because it is equivalent to instance SPI_i.out_data[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance out_data[0] (in view: work.SPI(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: BN362 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Removing sequential instance SPI_i.out_cnt[2] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.56ns		  25 /        18
+   2		0h:00m:00s		    -1.56ns		  24 /        18
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Replicating instance SPI_i.state[1] (in view: work.top(verilog)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Replicating instance SPI_i.state[2] (in view: work.top(verilog)) with 17 loads 2 times to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   3		0h:00m:00s		    -1.56ns		  33 /        22
+
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":10:2:10:7|Replicating instance SPI_i.SCKr[1] (in view: work.top(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":95:6:95:13|Replicating instance SPI_i.in_cnt12_0_a4 (in view: work.top(verilog)) with 4 loads 3 time(s) to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+@A: BN291 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\modules\spi.v":48:2:48:7|Boundary register SPI_i.new_addr (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FX1016 :"c:\users\shaun\desktop\fpga\tinyfpga-bx-master\icecube2_template\verilog\top.v":6:10:6:12|SB_GB_IO inserted on the port CLK.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 23 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks =============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance   
+------------------------------------------------------------------------------------------
+@K:CKID0001       CLK_ibuf_gb_io      SB_GB_IO               23         SPI_i.SCKr_fast[1]
+==========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 134MB)
+
+Writing Analyst data base C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\synwork\template_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\template.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@W: MT420 |Found inferred clock top|CLK with period 5.74ns. Please declare a user-defined clock on object "p:CLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Dec 05 17:14:35 2020
+#
+
+
+Top view:               top
+Requested Frequency:    174.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.013
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+top|CLK            174.3 MHz     148.1 MHz     5.738         6.751         -1.013     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+top|CLK   top|CLK  |  5.738       -1.013  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                            Arrival           
+Instance                Reference     Type        Pin     Net               Time        Slack 
+                        Clock                                                                 
+----------------------------------------------------------------------------------------------
+SPI_i.SCKr[1]           top|CLK       SB_DFF      Q       SCKr[1]           0.796       -1.013
+SPI_i.SCKr[2]           top|CLK       SB_DFF      Q       SCKr[2]           0.796       -1.013
+SPI_i.SSELr[1]          top|CLK       SB_DFF      Q       SSELr[1]          0.796       -1.013
+SPI_i.SCKr_fast[1]      top|CLK       SB_DFF      Q       SCKr_fast[1]      0.796       -0.940
+SPI_i.byte_received     top|CLK       SB_DFFE     Q       byte_received     0.796       -0.940
+SPI_i.in_cnt[2]         top|CLK       SB_DFF      Q       in_cnt[2]         0.796       -0.940
+SPI_i.out_cnt[0]        top|CLK       SB_DFF      Q       out_cnt[0]        0.796       -0.940
+SPI_i.state_1_rep1      top|CLK       SB_DFFE     Q       state_1_rep1      0.796       -0.940
+SPI_i.d1                top|CLK       SB_DFF      Q       d1                0.796       -0.909
+SPI_i.in_cnt[0]         top|CLK       SB_DFF      Q       in_cnt[0]         0.796       -0.909
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                               Required           
+Instance                Reference     Type         Pin     Net                 Time         Slack 
+                        Clock                                                                     
+--------------------------------------------------------------------------------------------------
+SPI_i.in_cnt[0]         top|CLK       SB_DFF       D       in_cnt              5.583        -1.013
+SPI_i.in_cnt[1]         top|CLK       SB_DFF       D       in_cnt_0            5.583        -1.013
+SPI_i.in_cnt[2]         top|CLK       SB_DFF       D       in_cnt_1            5.583        -1.013
+SPI_i.out_cnt[0]        top|CLK       SB_DFF       D       out_cnt             5.583        -1.013
+SPI_i.out_cnt[1]        top|CLK       SB_DFF       D       out_cnt_0           5.583        -1.013
+SPI_i.state[0]          top|CLK       SB_DFF       D       state               5.583        -1.013
+SPI_i.byte_received     top|CLK       SB_DFFE      D       byte_received_2     5.583        -0.909
+SPI_i.out_data[2]       top|CLK       SB_DFFSS     D       out_data_en[2]      5.583        -0.909
+SPI_i.state[1]          top|CLK       SB_DFFE      E       N_29                5.738        -0.858
+SPI_i.state[2]          top|CLK       SB_DFFE      E       N_29                5.738        -0.858
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr[1] / Q
+    Ending point:                            SPI_i.in_cnt[2] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                      Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+SPI_i.SCKr[1]             SB_DFF      Q        Out     0.796     0.796       -         
+SCKr[1]                   Net         -        -       1.599     -           4         
+SPI_i.in_cnt_RNO_0[2]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.in_cnt_RNO_0[2]     SB_LUT4     O        Out     0.661     3.056       -         
+N_8_0                     Net         -        -       1.371     -           1         
+SPI_i.in_cnt_RNO[2]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.in_cnt_RNO[2]       SB_LUT4     O        Out     0.661     5.089       -         
+in_cnt_1                  Net         -        -       1.507     -           1         
+SPI_i.in_cnt[2]           SB_DFF      D        In      -         6.596       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr[2] / Q
+    Ending point:                            SPI_i.in_cnt[1] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                      Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+SPI_i.SCKr[2]             SB_DFF      Q        Out     0.796     0.796       -         
+SCKr[2]                   Net         -        -       1.599     -           7         
+SPI_i.in_cnt_RNO_0[1]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.in_cnt_RNO_0[1]     SB_LUT4     O        Out     0.661     3.056       -         
+G_9_i_o2_0_1              Net         -        -       1.371     -           1         
+SPI_i.in_cnt_RNO[1]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.in_cnt_RNO[1]       SB_LUT4     O        Out     0.661     5.089       -         
+in_cnt_0                  Net         -        -       1.507     -           1         
+SPI_i.in_cnt[1]           SB_DFF      D        In      -         6.596       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SSELr[1] / Q
+    Ending point:                            SPI_i.state[0] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+SPI_i.SSELr[1]           SB_DFF      Q        Out     0.796     0.796       -         
+SSELr[1]                 Net         -        -       1.599     -           3         
+SPI_i.state_RNO_0[0]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.state_RNO_0[0]     SB_LUT4     O        Out     0.661     3.056       -         
+N_5                      Net         -        -       1.371     -           1         
+SPI_i.state_RNO[0]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.state_RNO[0]       SB_LUT4     O        Out     0.661     5.089       -         
+state                    Net         -        -       1.507     -           1         
+SPI_i.state[0]           SB_DFF      D        In      -         6.596       -         
+======================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.013
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr[1] / Q
+    Ending point:                            SPI_i.out_cnt[0] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+SPI_i.SCKr[1]              SB_DFF      Q        Out     0.796     0.796       -         
+SCKr[1]                    Net         -        -       1.599     -           4         
+SPI_i.out_cnt_RNO_0[0]     SB_LUT4     I0       In      -         2.395       -         
+SPI_i.out_cnt_RNO_0[0]     SB_LUT4     O        Out     0.661     3.056       -         
+out_cnt_r_1_0[0]           Net         -        -       1.371     -           1         
+SPI_i.out_cnt_RNO[0]       SB_LUT4     I0       In      -         4.427       -         
+SPI_i.out_cnt_RNO[0]       SB_LUT4     O        Out     0.661     5.089       -         
+out_cnt                    Net         -        -       1.507     -           1         
+SPI_i.out_cnt[0]           SB_DFF      D        In      -         6.596       -         
+========================================================================================
+Total path delay (propagation time + setup) of 6.751 is 2.274(33.7%) logic and 4.477(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.738
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.583
+
+    - Propagation time:                      6.524
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.940
+
+    Number of logic level(s):                2
+    Starting point:                          SPI_i.SCKr_fast[1] / Q
+    Ending point:                            SPI_i.in_cnt[0] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                      Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+SPI_i.SCKr_fast[1]        SB_DFF      Q        Out     0.796     0.796       -         
+SCKr_fast[1]              Net         -        -       1.599     -           4         
+SPI_i.in_cnt_RNO_0[0]     SB_LUT4     I1       In      -         2.395       -         
+SPI_i.in_cnt_RNO_0[0]     SB_LUT4     O        Out     0.589     2.984       -         
+N_8_mux_i_1               Net         -        -       1.371     -           1         
+SPI_i.in_cnt_RNO[0]       SB_LUT4     I0       In      -         4.355       -         
+SPI_i.in_cnt_RNO[0]       SB_LUT4     O        Out     0.661     5.017       -         
+in_cnt                    Net         -        -       1.507     -           1         
+SPI_i.in_cnt[0]           SB_DFF      D        In      -         6.524       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 6.679 is 2.202(33.0%) logic and 4.477(67.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40lp8kcm81
+Cell usage:
+GND             1 use
+SB_DFF          13 uses
+SB_DFFE         7 uses
+SB_DFFESR       1 use
+SB_DFFSR        1 use
+SB_DFFSS        1 use
+VCC             1 use
+SB_LUT4         38 uses
+
+I/O ports: 6
+I/O primitives: 5
+SB_GB_IO       1 use
+SB_IO          4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   23 (0%)
+Total load per clock:
+   top|CLK: 1
+
+@S |Mapping Summary:
+Total  LUTs: 38 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 38 = 38 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 05 17:14:35 2020
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation template_Implmnt its sbt path: C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 4 seconds
+
+
+"D:/FPGA/sbt_backend/bin/win32/opt\edifparser.exe" "D:\FPGA\sbt_backend\devices\ICE40P08.dev" "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt/template.edf " "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist" "-pCM81" "-yC:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf " "-sC:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/clk.sdc " -c --devicename iCE40LP8K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt/template.edf...
+Parsing constraint file: C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf ...
+Warning: pin PIN_1 doesn't exist in the design netlist.ignoring the set_io command on line 39 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_2 doesn't exist in the design netlist.ignoring the set_io command on line 40 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_3 doesn't exist in the design netlist.ignoring the set_io command on line 41 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_4 doesn't exist in the design netlist.ignoring the set_io command on line 42 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_5 doesn't exist in the design netlist.ignoring the set_io command on line 43 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_6 doesn't exist in the design netlist.ignoring the set_io command on line 44 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_7 doesn't exist in the design netlist.ignoring the set_io command on line 45 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_8 doesn't exist in the design netlist.ignoring the set_io command on line 46 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_9 doesn't exist in the design netlist.ignoring the set_io command on line 47 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_14 doesn't exist in the design netlist.ignoring the set_io command on line 53 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_15 doesn't exist in the design netlist.ignoring the set_io command on line 54 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_16 doesn't exist in the design netlist.ignoring the set_io command on line 55 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_17 doesn't exist in the design netlist.ignoring the set_io command on line 56 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_18 doesn't exist in the design netlist.ignoring the set_io command on line 57 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_19 doesn't exist in the design netlist.ignoring the set_io command on line 58 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_20 doesn't exist in the design netlist.ignoring the set_io command on line 59 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_21 doesn't exist in the design netlist.ignoring the set_io command on line 60 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_22 doesn't exist in the design netlist.ignoring the set_io command on line 61 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_23 doesn't exist in the design netlist.ignoring the set_io command on line 62 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_24 doesn't exist in the design netlist.ignoring the set_io command on line 63 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin SPI_SS doesn't exist in the design netlist.ignoring the set_io command on line 65 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin SPI_SCK doesn't exist in the design netlist.ignoring the set_io command on line 66 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin SPI_IO0 doesn't exist in the design netlist.ignoring the set_io command on line 67 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin SPI_IO1 doesn't exist in the design netlist.ignoring the set_io command on line 68 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin SPI_IO2 doesn't exist in the design netlist.ignoring the set_io command on line 69 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin SPI_IO3 doesn't exist in the design netlist.ignoring the set_io command on line 70 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_25 doesn't exist in the design netlist.ignoring the set_io command on line 72 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_26 doesn't exist in the design netlist.ignoring the set_io command on line 73 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_27 doesn't exist in the design netlist.ignoring the set_io command on line 74 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_28 doesn't exist in the design netlist.ignoring the set_io command on line 75 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_29 doesn't exist in the design netlist.ignoring the set_io command on line 76 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_30 doesn't exist in the design netlist.ignoring the set_io command on line 77 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin PIN_31 doesn't exist in the design netlist.ignoring the set_io command on line 78 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin -USBP doesn't exist in the design netlist.ignoring the set_io command on line 82 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin -USBN doesn't exist in the design netlist.ignoring the set_io command on line 83 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+Warning: pin -USBPU doesn't exist in the design netlist.ignoring the set_io command on line 84 of file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf 
+parse file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/pins.pcf  error. But they are ignored
+start to read sdc/scf file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt/template.scf
+sdc_reader OK C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt/template.scf
+start to read sdc/scf file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/clk.sdc 
+sdc_reader OK C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/clk.sdc 
+Stored edif netlist at C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top...
+Warning: Unable to find port "pin3_clk_16mhz" in the design.Following line is ignored:(in the file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/constraints/clk.sdc )
+    create_clock  -period 62.500000 -name {pin3_clk_16mhz} [get_ports {pin3_clk_16mhz}]
+
+write Timing Constraint to C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: top
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+
+
+"D:/FPGA/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top" --outdir "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer" --device-file "D:\FPGA\sbt_backend\devices\ICE40P08.dev" --package CM81 --deviceMarketName iCE40LP8K --sdc-file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "D:\FPGA\sbt_backend\devices\ice40LP8K.lib" --effort_level std --out-sdc-file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer\top_pl.sdc"
+starting placerrunning placerExecuting : D:\FPGA\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top --outdir C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer --device-file D:\FPGA\sbt_backend\devices\ICE40P08.dev --package CM81 --deviceMarketName iCE40LP8K --sdc-file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file D:\FPGA\sbt_backend\devices\ice40LP8K.lib --effort_level std --out-sdc-file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer\top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - D:\FPGA\sbt_backend\devices\ICE40P08.dev
+Package              - CM81
+Design database      - C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top
+SDC file             - C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer
+Timing library       - D:\FPGA\sbt_backend\devices\ice40LP8K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+I2065: Reading device file : D:\FPGA\sbt_backend\devices\ICE40P08.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+W2715: Warning for set_io Constraint: Ignoring pin assignment for PIN_12, as it is not connected to any PAD
+W2216: SB_GB_IO 'CLK_ibuf_gb_io' is assigned to a non-GB pin 'B2'. Replacing it with SB_IO 'CLK_ibuf_gb_io' and SB_GB 'CLK_ibuf_gb_io_gb'
+
+Input Design Statistics
+    Number of LUTs      	:	38
+    Number of DFFs      	:	23
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	4
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	6
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	6
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	45
+    Number of DFFs      	:	23
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	23
+        LUT, DFF and CARRY	:	0
+    Combinational LogicCells
+        Only LUT         	:	22
+        CARRY Only       	:	0
+        LUT with CARRY   	:	0
+    LogicCells                  :	45/7680
+    PLBs                        :	8/960
+    BRAMs                       :	0/32
+    IOs and GBIOs               :	5/63
+    PLLs                        :	0/1
+
+
+I2088: Phase 3, elapsed time : 0.2 (sec)
+
+Phase 4
+Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "CLK_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
+I2088: Phase 4, elapsed time : 0.2 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 14.7 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	45
+    Number of DFFs      	:	23
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	5
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	45/7680
+    PLBs                        :	10/960
+    BRAMs                       :	0/32
+    IOs and GBIOs               :	5/63
+    PLLs                        :	0/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: top|CLK | Frequency: 219.86 MHz | Target: 174.22 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 15.6 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"D:/FPGA/sbt_backend/bin/win32/opt\packer.exe" "D:\FPGA\sbt_backend\devices\ICE40P08.dev" "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top" --package CM81 --outdir "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\packer" --DRC_only  --translator "D:\FPGA\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40LP8K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 114
+used logic cells: 45
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"D:/FPGA/sbt_backend/bin/win32/opt\packer.exe" "D:\FPGA\sbt_backend\devices\ICE40P08.dev" "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top" --package CM81 --outdir "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\packer" --translator "D:\FPGA\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40LP8K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 114
+used logic cells: 45
+Translating sdc file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\placer\top_pl.sdc...
+Translated sdc file is C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\packer\top_pk.sdc
+Packer succeeded
+
+Packer run-time: 1 (sec)
+packer succeed.
+
+
+"D:\FPGA\sbt_backend\bin\win32\opt\sbrouter.exe" "D:\FPGA\sbt_backend\devices\ICE40P08.dev" "C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\netlist\oadb-top" "D:\FPGA\sbt_backend\devices\ice40LP8K.lib" "C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\outputs\packer\top_pk.sdc" --outdir "C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\outputs\router" --sdf_file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : D:\FPGA\sbt_backend\bin\win32\opt\sbrouter.exe D:\FPGA\sbt_backend\devices\ICE40P08.dev C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\netlist\oadb-top D:\FPGA\sbt_backend\devices\ice40LP8K.lib C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\outputs\packer\top_pk.sdc --outdir C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\outputs\router --sdf_file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:02:50
+
+I1203: Reading Design top
+Read design time: 0
+I1202: Reading Architecture of device iCE40LP8K
+Read device time: 9
+I1209: Started routing
+I1223: Total Nets : 50 
+I1212: Iteration  1 :    14 unrouted : 0 seconds
+I1212: Iteration  2 :     4 unrouted : 0 seconds
+I1212: Iteration  3 :     4 unrouted : 0 seconds
+I1212: Iteration  4 :     4 unrouted : 0 seconds
+I1212: Iteration  5 :     4 unrouted : 0 seconds
+I1212: Iteration  6 :     4 unrouted : 0 seconds
+I1212: Iteration  7 :     4 unrouted : 0 seconds
+I1212: Iteration  8 :     4 unrouted : 0 seconds
+I1212: Iteration  9 :     4 unrouted : 0 seconds
+I1212: Iteration 10 :     4 unrouted : 0 seconds
+I1212: Iteration 11 :     4 unrouted : 0 seconds
+I1212: Iteration 12 :     3 unrouted : 0 seconds
+I1212: Iteration 13 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 1
+I1206: Completed routing
+I1204: Writing Design top
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 10 seconds
+router succeed.
+
+"D:/FPGA/sbt_backend/bin/win32/opt\netlister.exe" --verilog "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v" --vhdl "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd" --lib "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top" --view rt --device "D:\FPGA\sbt_backend\devices\ICE40P08.dev" --splitio  --in-sdc-file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\packer\top_pk.sdc" --out-sdc-file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\netlister\top_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:30:26
+
+Generating Verilog & VHDL netlist files ...
+Writing C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v
+Writing C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 1 (sec)
+netlist succeed.
+
+
+"D:/FPGA/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top" --lib-file "D:\FPGA\sbt_backend\devices\ice40LP8K.lib" --sdc-file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\netlister\top_sbt.sdc" --sdf-file "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --report-file "C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\outputs\timer\top_timing.rpt" --device-file "D:\FPGA\sbt_backend\devices\ICE40P08.dev" --timing-summary
+starting timerrunning timerExecuting : D:\FPGA\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top --lib-file D:\FPGA\sbt_backend\devices\ice40LP8K.lib --sdc-file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\netlister\top_sbt.sdc --sdf-file C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --report-file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\template_Implmnt\sbt\outputs\timer\top_timing.rpt --device-file D:\FPGA\sbt_backend\devices\ICE40P08.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:01:05
+
+Warning-1034: Found non-unate timing arc, from pin "PADIN" to pin "DIN0" of instance "CLK_ibuf_gb_io_preio", in the clock network. Converting the timing arc to positive-unate
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"D:/FPGA/sbt_backend/bin/win32/opt\bitmap.exe" "D:\FPGA\sbt_backend\devices\ICE40P08.dev" --design "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\netlist\oadb-top" --device_name iCE40LP8K --package CM81 --outdir "C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/template_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:29:39
+
+Bit Stream File Size: 1080760 (1M 31K 440 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 1 (sec)
+bitmap succeed.
+7:57:08 PM

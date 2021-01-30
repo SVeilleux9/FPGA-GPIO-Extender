@@ -1,0 +1,5 @@
+i<>.\..\..\verilog\modules\SPI.v
+i<>.\..\..\verilog\modules\RegMap.v
+i<>.\..\..\verilog\top.v
+i<>.\..\..\verilog\top_tb.v
+i<>.\..\..\verilog\modules\MainController.v

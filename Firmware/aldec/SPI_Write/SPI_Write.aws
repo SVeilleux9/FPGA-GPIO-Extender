@@ -1,0 +1,8 @@
+[Version]
+Version=10.3
+[Designs]
+SPI_Write=SPI_Write.adf
+[Settings]
+Active=SPI_Write
+[Expand]
+spi_write=1

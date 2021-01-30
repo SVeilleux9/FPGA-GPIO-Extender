@@ -1,0 +1,1491 @@
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v ... Done
+# Adding file C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top_tb.v ... Done
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (17): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (17): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (17): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (17): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (17): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (17): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 top.v (17): Design unit MainController instantiated in spi_testbench.top not found in searched libraries: spi_testbench, ovi_ice, ice.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 -L ovi_ice -L ice +access +r tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.1 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:10 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/tb/t/SPI_i/SCKr}
+# add wave -noreg {/tb/t/SPI_i/SCK_risingedge}
+# add wave -noreg {/tb/t/SPI_i/SCK_fallingedge}
+# add wave -noreg {/tb/t/SPI_i/SSELr}
+# add wave -noreg {/tb/t/SPI_i/SSEL_active}
+# add wave -noreg {/tb/t/SPI_i/MOSIr}
+# add wave -noreg {/tb/t/SPI_i/MOSI_data}
+# add wave -noreg {/tb/t/SPI_i/state}
+# add wave -noreg {/tb/t/SPI_i/in_cnt}
+# add wave -noreg {/tb/t/SPI_i/out_cnt}
+# add wave -noreg {/tb/t/SPI_i/bit_out}
+# add wave -noreg {/tb/t/SPI_i/firstByte}
+# add wave -noreg {/tb/t/SPI_i/secondByte}
+# add wave -noreg {/tb/t/SPI_i/d1}
+# add wave -noreg {/tb/t/SPI_i/addr}
+# add wave -noreg {/tb/t/SPI_i/byte_received}
+# add wave -noreg {/tb/t/SPI_i/in_data}
+# add wave -noreg {/tb/t/SPI_i/out_data}
+# add wave -noreg {/tb/t/SPI_i/r_w}
+# add wave -noreg {/tb/t/SPI_i/data_sent}
+# add wave -noreg {/tb/t/SPI_i/addr_sent}
+# add wave -noreg {/tb/t/SPI_i/module_out}
+# add wave -noreg {/tb/t/SPI_i/data}
+# add wave -noreg {/tb/t/SPI_i/start_transaction}
+# add wave -noreg {/tb/t/SPI_i/clk}
+# add wave -noreg {/tb/t/SPI_i/SCK}
+# add wave -noreg {/tb/t/SPI_i/SSEL}
+# add wave -noreg {/tb/t/SPI_i/MOSI}
+# add wave -noreg {/tb/t/SPI_i/MISO}
+# add wave -noreg {/tb/t/SPI_i/SPI_In}
+# add wave -noreg {/tb/t/SPI_i/SPI_Out}
+# add wave -noreg {/tb/t/SPI_i/SPI_Data_Available}
+# add wave -noreg {/tb/t/SPI_i/AddrBus}
+# add wave -noreg {/tb/t/SPI_i/DataBus}
+# 34 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+# add wave -noreg {/tb/t/SPI_i/SCKr}
+# add wave -noreg {/tb/t/SPI_i/SCK_risingedge}
+# add wave -noreg {/tb/t/SPI_i/SCK_fallingedge}
+# add wave -noreg {/tb/t/SPI_i/SSELr}
+# add wave -noreg {/tb/t/SPI_i/SSEL_active}
+# add wave -noreg {/tb/t/SPI_i/MOSIr}
+# add wave -noreg {/tb/t/SPI_i/MOSI_data}
+# add wave -noreg {/tb/t/SPI_i/state}
+# add wave -noreg {/tb/t/SPI_i/in_cnt}
+# add wave -noreg {/tb/t/SPI_i/out_cnt}
+# add wave -noreg {/tb/t/SPI_i/bit_out}
+# add wave -noreg {/tb/t/SPI_i/firstByte}
+# add wave -noreg {/tb/t/SPI_i/secondByte}
+# add wave -noreg {/tb/t/SPI_i/d1}
+# add wave -noreg {/tb/t/SPI_i/addr}
+# add wave -noreg {/tb/t/SPI_i/byte_received}
+# add wave -noreg {/tb/t/SPI_i/in_data}
+# add wave -noreg {/tb/t/SPI_i/out_data}
+# add wave -noreg {/tb/t/SPI_i/r_w}
+# add wave -noreg {/tb/t/SPI_i/data_sent}
+# add wave -noreg {/tb/t/SPI_i/addr_sent}
+# add wave -noreg {/tb/t/SPI_i/module_out}
+# add wave -noreg {/tb/t/SPI_i/data}
+# add wave -noreg {/tb/t/SPI_i/start_transaction}
+# add wave -noreg {/tb/t/SPI_i/clk}
+# add wave -noreg {/tb/t/SPI_i/SCK}
+# add wave -noreg {/tb/t/SPI_i/SSEL}
+# add wave -noreg {/tb/t/SPI_i/MOSI}
+# add wave -noreg {/tb/t/SPI_i/MISO}
+# add wave -noreg {/tb/t/SPI_i/SPI_In}
+# add wave -noreg {/tb/t/SPI_i/SPI_Out}
+# add wave -noreg {/tb/t/SPI_i/SPI_Data_Available}
+# add wave -noreg {/tb/t/SPI_i/AddrBus}
+# add wave -noreg {/tb/t/SPI_i/DataBus}
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SCKr' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SCK_risingedge' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SCK_fallingedge' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SSELr' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SSEL_active' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/MOSIr' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/MOSI_data' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/state' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/in_cnt' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/out_cnt' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/bit_out' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/firstByte' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/secondByte' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/d1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/addr' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/byte_received' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/in_data' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/out_data' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/r_w' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/data_sent' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/addr_sent' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/module_out' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/data' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/start_transaction' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SCK' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SSEL' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/MOSI' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/MISO' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SPI_In' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SPI_Out' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/SPI_Data_Available' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/AddrBus' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/SPI_i/DataBus' has already been traced.
+# 0 signal(s) traced.
+# add wave -noreg {/tb/t/reg_mag_i/registers}
+# add wave -noreg {/tb/t/reg_mag_i/reqData}
+# add wave -noreg {/tb/t/reg_mag_i/reqAddr}
+# add wave -noreg {/tb/t/reg_mag_i/state}
+# add wave -noreg {/tb/t/reg_mag_i/addr_rcv}
+# add wave -noreg {/tb/t/reg_mag_i/r_w}
+# add wave -noreg {/tb/t/reg_mag_i/clk}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Out}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_In}
+# add wave -noreg {/tb/t/reg_mag_i/RegMap_Data_Available}
+# add wave -noreg {/tb/t/reg_mag_i/AddrBus}
+# add wave -noreg {/tb/t/reg_mag_i/DataBus}
+# 12 signal(s) traced.
+# add wave -noreg {/tb/t/controller/LED_state}
+# add wave -noreg {/tb/t/controller/state}
+# add wave -noreg {/tb/t/controller/BusActive}
+# add wave -noreg {/tb/t/controller/clk}
+# add wave -noreg {/tb/t/controller/LED}
+# add wave -noreg {/tb/t/controller/AddrBus}
+# add wave -noreg {/tb/t/controller/DataBus}
+# add wave -noreg {/tb/t/controller/SPI_In}
+# add wave -noreg {/tb/t/controller/SPI_Out}
+# add wave -noreg {/tb/t/controller/SPI_Data_Available}
+# add wave -noreg {/tb/t/controller/RegMap_In}
+# add wave -noreg {/tb/t/controller/RegMap_Out}
+# add wave -noreg {/tb/t/controller/RegMap_Data_available}
+# 13 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:11 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:14 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:19 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:22 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:23 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:23 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:23 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:26 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 75 (98.68%) signals in SLP and 1 (1.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:27 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 ../../../verilog/modules/SPI.v : (135, 16): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP5103 ../../../verilog/modules/MainController.v : (58, 23): Undeclared identifier: BusActive.
+# Error: VCP5103 ../../../verilog/modules/MainController.v : (59, 17): Undeclared identifier: LED.
+# Error: VCP1023 ../../../verilog/top_tb.v : (1, 11): Compiler directive `timescale is not allowed inside a module.
+# Info: VCP2113 Module MainController found in current working library.
+# Compile failure 4 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Error: VCP5101 ../../../verilog/modules/SPI.v : (134, 18): Operand (addr_sent) is not a constant.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/modules/SPI.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:35 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:37 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run
+run
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:38 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:42 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:43 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:43 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:48 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:48 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:52 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:54 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  9:55 PM, Tuesday, December 15, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 top_tb.v (48): $finish called.
+# KERNEL: Time: 3099969 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#45_3@.
+# KERNEL: stopped at time: 3099969 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 18 (100.00%) other processes in SLP
+# SLP: 74 (98.67%) signals in SLP and 1 (1.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=1280 elab2=4624 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  4:00 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 ../../../verilog/top_tb.v : (48, 14): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 ../../../verilog/top_tb.v : (48, 13): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 ../../../verilog/top_tb.v : (48, 14): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2661 ../../../verilog/top_tb.v : (31, 3): Infinite loop is possible in ALWAYS statement.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 20 (100.00%) other processes in SLP
+# SLP: 78 (98.73%) signals in SLP and 1 (1.27%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6051 kB (elbread=1280 elab2=4625 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  4:02 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /tb/t/reg_mag_i/reqData not found in C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb/t/reg_mag_i/reqAddr not found in C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb.
+run
+# KERNEL: Fatal Error: E8127 : Failed to allocate memory for non-blocking transaction.
+# VSIM: Error: Fatal error occurred during simulation.
+run
+# add wave -noreg {/tb/t/controller/LED_state}
+# add wave -noreg {/tb/t/controller/state}
+# add wave -noreg {/tb/t/controller/BusActive}
+# add wave -noreg {/tb/t/controller/clk}
+# add wave -noreg {/tb/t/controller/LED}
+# add wave -noreg {/tb/t/controller/AddrBus}
+# add wave -noreg {/tb/t/controller/DataBus}
+# add wave -noreg {/tb/t/controller/SPI_In}
+# add wave -noreg {/tb/t/controller/SPI_Out}
+# add wave -noreg {/tb/t/controller/SPI_Data_Available}
+# add wave -noreg {/tb/t/controller/RegMap_In}
+# add wave -noreg {/tb/t/controller/RegMap_Out}
+# add wave -noreg {/tb/t/controller/RegMap_Data_available}
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/LED_state' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/state' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/BusActive' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/LED' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/AddrBus' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/DataBus' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/SPI_In' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/SPI_Out' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/SPI_Data_Available' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/RegMap_In' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/RegMap_Out' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/tb/t/controller/RegMap_Data_available' has already been traced.
+# 0 signal(s) traced.
+run
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 20 (100.00%) other processes in SLP
+# SLP: 78 (98.73%) signals in SLP and 1 (1.27%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6051 kB (elbread=1280 elab2=4625 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  4:03 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# KERNEL: Fatal Error: E8127 : Failed to allocate memory for non-blocking transaction.
+# VSIM: Error: Fatal error occurred during simulation.
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2661 ../../../verilog/top_tb.v : (31, 3): Infinite loop is possible in ALWAYS statement.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work spi_testbench $dsn/../../verilog/top.v $dsn/../../verilog/modules/RegMap.v $dsn/../../verilog/modules/SPI.v $dsn/../../verilog/modules/MainController.v $dsn/../../verilog/top_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2661 ../../../verilog/top_tb.v : (31, 3): Infinite loop is possible in ALWAYS statement.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/../../verilog/modules/SPI.v, ln 62).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb.
+# $root top modules: tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'MainController' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'Reg_Map' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'SPI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'D:\FPGA\Aldec\Active-HDL\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 20 (100.00%) other processes in SLP
+# SLP: 78 (98.73%) signals in SLP and 1 (1.27%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6051 kB (elbread=1280 elab2=4625 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\aldec\SPI_TestBench\src\wave.asdb
+#  4:03 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Shaun/Desktop/FPGA/TinyFPGA-BX-master/icecube2_template/aldec/SPI_TestBench/src/wave.asdb'.
+run
+# KERNEL: Fatal Error: E8127 : Failed to allocate memory for non-blocking transaction.
+# VSIM: Error: Fatal error occurred during simulation.

@@ -1,0 +1,32 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Shaun\\Desktop\\FPGA\\TinyFPGA-BX-master\\icecube2_template\\template_Implmnt\\synwork\\template_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\Shaun\\Desktop\\FPGA\\TinyFPGA-BX-master\\icecube2_template\\|-I|D:\\FPGA\\synpbase\\lib|-v2001|-devicelib|D:\\FPGA\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\FPGA\\synpbase\\bin64\\c_ver.exe":1607133107
+#CUR:"D:\\FPGA\\synpbase\\lib\\generic\\sb_ice40.v":1607133115
+#CUR:"D:\\FPGA\\synpbase\\lib\\vlog\\hypermods.v":1607133119
+#CUR:"D:\\FPGA\\synpbase\\lib\\vlog\\umr_capim.v":1607133119
+#CUR:"D:\\FPGA\\synpbase\\lib\\vlog\\scemi_objects.v":1607133119
+#CUR:"D:\\FPGA\\synpbase\\lib\\vlog\\scemi_pipes.svh":1607133119
+#CUR:"C:\\Users\\Shaun\\Desktop\\FPGA\\TinyFPGA-BX-master\\icecube2_template\\verilog\\top.v":1608086885
+#CUR:"C:\\Users\\Shaun\\Desktop\\FPGA\\TinyFPGA-BX-master\\icecube2_template\\verilog\\modules\\RegMap.v":1608158864
+#CUR:"C:\\Users\\Shaun\\Desktop\\FPGA\\TinyFPGA-BX-master\\icecube2_template\\verilog\\modules\\SPI.v":1608087117
+#CUR:"C:\\Users\\Shaun\\Desktop\\FPGA\\TinyFPGA-BX-master\\icecube2_template\\verilog\\modules\\MainController.v":1608085665
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\top.v" verilog
+1			"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\RegMap.v" verilog
+2			"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\SPI.v" verilog
+3			"C:\Users\Shaun\Desktop\FPGA\TinyFPGA-BX-master\icecube2_template\verilog\modules\MainController.v" verilog
+#Dependency Lists(Uses List)
+0 3 1 2
+1 -1
+2 -1
+3 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+2 0
+3 0
+#Design Unit to File Association
+module work MainController 3
+module work Reg_Map 1
+module work SPI 2
+module work top 0

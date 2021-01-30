@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+SPI_testbench=SPI_testbench.adf
+[Settings]
+Active=SPI_testbench
+[Expand]
+spi_testbench=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

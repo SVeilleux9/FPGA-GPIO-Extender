@@ -1,0 +1,13 @@
+23
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "./../../../verilog/modules/MainController.v" 1 MainController
+~A 1 "./../../../verilog/modules/MainController.v" 1 MainController
+~M 1 "./../../../verilog/modules/RegMap.v" 1 Reg_Map
+~A 1 "./../../../verilog/modules/RegMap.v" 1 Reg_Map
+~M 1 "./../../../verilog/modules/SPI.v" 1 SPI
+~A 1 "./../../../verilog/modules/SPI.v" 1 SPI
+~M 3 "./../../../verilog/top_tb.v" 2 tb
+~A 1 "./../../../verilog/top_tb.v" 2 tb
+~M 1 "./../../../verilog/top.v" 6 top
+~A 1 "./../../../verilog/top.v" 6 top

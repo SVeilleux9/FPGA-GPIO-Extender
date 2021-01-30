@@ -1,0 +1,6 @@
+INPUT  PIN_12 	 location (3, 0, 1) 	 J1 	 
+INPUT  PIN_10 	 location (0, 3, 1) 	 G2 	 
+OUTPUT LED 	 location (5, 33, 1) 	 B3 	 
+INPUT  CLK 	 location (0, 30, 0) 	 B2 	 
+OUTPUT PIN_13 	 location (0, 3, 0) 	 H2 	 
+INPUT  PIN_11 	 location (3, 0, 0) 	 H1 	 
